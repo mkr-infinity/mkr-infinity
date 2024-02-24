@@ -20,7 +20,7 @@
 - 📫 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
 
 - 🧪 expert in flashing ROMs. GSI images. Customizing ANDROID.
-- 🫥 currently using CrDroid A13 GSI in Lenovo TB-X306X 👈 working smooth.
+- 🫥 currently using CrDroid A13 GSI in Lenovo TB-X306X 👈 through fastboot working smooth.
   
 
 <!---
