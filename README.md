@@ -19,7 +19,7 @@
 - 📫 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
 
 - 🧪 expert in flashing ROMs. GSI images. Customizing ANDROID.
-- If someone found any custom recovery for ```LENOVO-TB X306X``` please inform me at [Instagram](instagram.com/mkr_infinity)
+- If someone found any custom recovery for ```LENOVO-TB X306X``` please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
 
 <!---
 KAIF11196/KAIF11196 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
