@@ -14,14 +14,13 @@
 
 
 
-- 👋 Hi, I’m Kaif from Bharat🇮🇳.
+- 👋 Hi, I’m Kaif from Bharat.
 - 👀 I’m interested in technology.
 - 🌱 I’m currently learning something 😅.
 - 📫 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
 
 - 🧪 expert in flashing ROMs. GSI images. Customizing ANDROID.
-- 🫥 currently using CrDroid A13 GSI in Lenovo TB-X306X 👈 through fastboot working smooth.
-  
+- If someone found any custom recovery for 'LENOVO-TB X306X' please inform me at [Instagram](instagram.com/mkr_infinity)
 
 <!---
 KAIF11196/KAIF11196 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
