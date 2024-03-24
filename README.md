@@ -21,5 +21,6 @@
 
 ### Contact
 ★ [Instagram](https://www.instagram.com/mkr_infinity/)
-★ [Telegram](t.me/mkr_infinity)
+
+★ [Telegram](https://t.me/mkr_infinity)
 
