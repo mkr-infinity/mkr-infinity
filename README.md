@@ -20,5 +20,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### Contact
-★[Instagram](instagram.com/mkr_infinity/)
+★ [Instagram](instagram.com/mkr_infinity/)
+★ [Telegram](t.me/mkr_infinity/)
 
