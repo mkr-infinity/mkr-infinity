@@ -6,7 +6,7 @@
 
 # 💫 About Me:🥲
 🔭  Hi, I’m Kaif from India🇮🇳.<br>👯 I’m currently learning something 😅.<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
-<br>🌱expert in flashing ROMs. GSI images. Customizing ANDROID.<br>⚡If someone found any custom recovery for ```LENOVO-TB X306X``` please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
+<br>🌱I like flashing GSI images. Customizing ANDROID.<br>⚡If someone found any custom recovery for ```LENOVO-TB X306X``` please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
 
 ### 🔝 Top Contributed Repo😉
 ![](https://github-contributor-stats.vercel.app/api?username=mkr-infinity&limit=5&theme=radical&combine_all_yearly_contributions=true)
