@@ -22,4 +22,8 @@
   </a>  
 </div>
 
-
+<div id="badges">
+  <a href="https://t.me/mkr_infinity">
+    <img src="https://img.shields.io/badge/Telegram-red?style=for-the-badge&logo=telegram&logoColor=blue" alt="Instagram Badge"/>
+  </a>  
+</div>
