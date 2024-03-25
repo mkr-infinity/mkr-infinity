@@ -22,5 +22,4 @@
   </a>  
 </div>
 
-★ [Telegram](https://t.me/mkr_infinity)
 
