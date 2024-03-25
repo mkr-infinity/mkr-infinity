@@ -2,11 +2,7 @@
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
 
-<div id="badges">
-  <a href="https://www.instagram.com/mkr_infinity/">
-    <img src="https://img.shields.io/badge/Instagram-red?style=for-the-badge&logo=Instagram&logoColor=blue" alt="Instagram Badge"/>
-  </a>  
-</div>
+
 
 # 💫 About Me:🥲
 🔭  Hi, I’m Kaif from India🇮🇳.<br>👯 I’m currently learning something 😅.<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
@@ -19,8 +15,12 @@
 ### ✍️ Random Quote😇
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### Contact
-★ [Instagram](https://www.instagram.com/mkr_infinity/)
+### Connect With Me
+<div id="badges">
+  <a href="https://www.instagram.com/mkr_infinity/">
+    <img src="https://img.shields.io/badge/Instagram-red?style=for-the-badge&logo=Instagram&logoColor=blue" alt="Instagram Badge"/>
+  </a>  
+</div>
 
 ★ [Telegram](https://t.me/mkr_infinity)
 
