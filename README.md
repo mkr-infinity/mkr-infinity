@@ -6,7 +6,7 @@
 
 # 💫 About Me:🥲
 🔭  Hi, I’m Kaif from India🇮🇳..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
-<br>🌱 I like flashing GSI. Customizing ANDROID.<br>⚡ If someone found any custom recovery for ```LENOVO-TB X306X``` please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
+<br>🌱 I like flashing GSI. Customizing ANDROID.<br>⚡ If someone found any custom recovery for ```LENOVO-TB X306X``` or ```(Samsung) SM-J810G```please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
 
 
 ### ✍️ Random Quote😇
