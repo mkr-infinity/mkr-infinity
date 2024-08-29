@@ -1,7 +1,6 @@
 ### Hello World!
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
-
+![SL-122222-54830-38](https://github.com/user-attachments/assets/642627cf-6bde-4891-8d0e-ec9e18f9a54c)
 
 
 # 💫 About Me:🥲
