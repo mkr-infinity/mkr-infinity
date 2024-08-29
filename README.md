@@ -1,6 +1,6 @@
 ### Hello World!
 
-![SL-122222-54830-38](https://github.com/user-attachments/assets/642627cf-6bde-4891-8d0e-ec9e18f9a54c)
+![67d0137c6517d5ed0fcc461f2582dcfd - 2024-08-30T001518 107](https://github.com/user-attachments/assets/428f0aa7-2757-4ca2-b8d5-23958a072a42)
 
 
 # 💫 About Me:🥲
@@ -23,3 +23,5 @@
     <img src="https://img.shields.io/badge/Telegram-red?style=for-the-badge&logo=telegram&logoColor=blue" alt="Instagram Badge"/>
   </a>  
 </div>
+
+![Loading Fast GIF - Loading Fast - Discover   Share GIFs - 2024-08-30T000443 200](https://github.com/user-attachments/assets/9d66a38f-9c7b-4705-9d82-504cbfd7f202)
