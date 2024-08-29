@@ -1,6 +1,6 @@
 ### Hello World!
 
-![67d0137c6517d5ed0fcc461f2582dcfd - 2024-08-30T001518 107](https://github.com/user-attachments/assets/428f0aa7-2757-4ca2-b8d5-23958a072a42)
+<img src='https://github.com/user-attachments/assets/428f0aa7-2757-4ca2-b8d5-23958a072a42' style="height: 100px; width: 300px;"/>
 
 
 # 💫 About Me:🥲
@@ -24,4 +24,5 @@
   </a>  
 </div>
 
-![Loading Fast GIF - Loading Fast - Discover   Share GIFs - 2024-08-30T000443 200](https://github.com/user-attachments/assets/9d66a38f-9c7b-4705-9d82-504cbfd7f202)
+
+<img src='https://github.com/user-attachments/assets/9d66a38f-9c7b-4705-9d82-504cbfd7f202' style="height: 150px; width: 200px;"/>
