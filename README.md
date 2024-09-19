@@ -1,6 +1,6 @@
 ### Hello World!
 
-<img src='(https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310)' style="height: 100px; width: 300px;"/>
+![Welcome image](https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310)
 
 
 # 💫 About Me:🥲
