@@ -5,7 +5,7 @@
 
 # 💫 About Me:🥲
 🔭  Hi, I’m Kaif from 🌍👈 this Gola..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
-<br>🌱 I like 🌹.<br>⚡ If someone found any custom rom for ```LENOVO-TB X306X``` or Any 32bit (A64) Custom rom Based on A12+ for```(Samsung) SM-J810G```please inform me at [Instagram](https://www.instagram.com/mkr_infinity/)
+ <br>⚡ If someone found any custom rom for ```LENOVO-TB X306X``` or Any 32bit (A64) Custom rom Based on A12+ for```(Samsung) SM-J810G```please tell me at [Instagram](https://www.instagram.com/mkr_infinity/)
 
 
 ### ✍️ Random Quote😇
