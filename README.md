@@ -30,6 +30,16 @@
  <br>⚡ If someone found any custom rom for ```LENOVO-TB X306X``` or Any 32bit (A64) Custom rom Based on A12+ for```(Samsung) SM-J810G```please tell me at [Instagram](https://www.instagram.com/mkr_infinity/)
 
 
+
+
+# 🎣 Hobbies🗝️
+📱 Android Rooting, Flashing Roms,GSI, etc. <br> 
+🍎iOS Jailbreaking.   <br> 
+⏰Overclocking, Undervolting.
+
+
+
+
 ### ✍️ Random Quote😇
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
