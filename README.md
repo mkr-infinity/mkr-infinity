@@ -42,6 +42,12 @@
   <a href="https://www.facebook.com/mkr_edittz" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=mkr_edittz&color=1877F2&logoColor=1fd1d6&labelColor=2c8822&style=plastic" height="20" alt="facebook logo"  />
   </a>
+ <br clear="both">
+
+<div align="center">
+  <a href="https://www.instagram.com/lafze_kaifiyat" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=lafze_kaifiyat&color=E4405F&logoColor=fa05e4&labelColor=653c62&style=plastic" height="20" alt="instagram logo"  />
+  </a>
 </div>
 
 ###
