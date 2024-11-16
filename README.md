@@ -41,22 +41,26 @@
 
 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://fb.com/mkr_edittz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mkr_edittz" height="30" width="40" /></a>
-<a href="https://instagram.com/mkr_infinity" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mkr_infinity" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/labze_kaifiyat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="labze_kaifiyat" height="30" width="40" /></a>
-</p>
+<h3 align="left">🌐Connect with me:</h3>
 
 
+<br clear="both">
 
-
-
-<div id="badges">
-  <a href="https://t.me/mkr_infinity">
-    <img src="https://img.shields.io/badge/Telegram-red?style=for-the-badge&logo=telegram&logoColor=blue" alt="Instagram Badge"/>
-  </a>  
+<div align="center">
+  <a href="https://www.youtube.com/@mkrinfinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=labze_kaifiyat&color=FF0000&logoColor=red&labelColor=&style=plastic" height="43" alt="youtube logo"  />
+  </a>
+  <a href="https://www.instagram.com/mkr_infinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=mkr_infinity&color=E4405F&logoColor=cyan&labelColor=&style=plastic" height="43" alt="instagram logo"  />
+  </a>
+  <a href="https://t.me/mkr_infinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=mkr_infinity&color=2CA5E0&logoColor=&labelColor=&style=plastic" height="43" alt="telegram logo"  />
+  </a>
+  <a href="https://www.facebook.com/mkrinfinity1" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=Kaif(Official)&color=1877F2&logoColor=cyan&labelColor=&style=plastic" height="43" alt="facebook logo"  />
+  </a>
 </div>
+
 
 
 [![](https://visitcount.itsvg.in/api?id=mkr-infinity&icon=10&color=13)](https://visitcount.itsvg.in)
