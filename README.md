@@ -44,11 +44,14 @@
   </a>
  <br clear="both">
 
+<br clear="both">
+
 <div align="center">
-  <a href="https://www.instagram.com/lafze_kaifiyat" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=lafze_kaifiyat&color=E4405F&logoColor=fa05e4&labelColor=653c62&style=plastic" height="20" alt="instagram logo"  />
+  <a href="https://www.instagram.com/labze_kaifiyat" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=labze_kaifiyat&color=E4405F&logoColor=fa05e4&labelColor=653c62&style=plastic" height="20" alt="instagram logo"  />
   </a>
 </div>
+
 
 ###
 
