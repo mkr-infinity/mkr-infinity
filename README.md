@@ -3,7 +3,8 @@
 
 # 💫 About Me:🥲
 🔭  Hi, I’m Kaif from 🌍👈 this Gola..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
- <br>⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love To Join Your Beta Or Testnet Programme,   [Instagram](https://www.instagram.com/mkr_infinity/)
+ <br>⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love To Join Your Beta Or Testnet Programme, Jist Messege Me OnWith You Project Link.
+ [Instagram](https://www.instagram.com/mkr_infinity/)
 
 
 
@@ -55,9 +56,6 @@
 
 
 ###
-
-
-
 
 
 
