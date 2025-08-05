@@ -144,9 +144,7 @@ Send Anything(Token/NFT) on Etherium Chain.
 
  ### 💖 Support Via Telegram
 
-<img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/4f77bb8c-4b04-4584-9221-57d86e58e335" />
-
-
+<img width="250" height="75" alt="Image" src="https://github.com/user-attachments/assets/fe380ea4-6526-423e-8a66-2385918dcea5" />
 
 - ⭐ You can send **NFT** OR **Stars** directly to me on telegram
 - 💬 [Contact @mkr_infinity](https://t.me/mkr_infinity)
