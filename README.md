@@ -104,7 +104,9 @@ Your contributions help me continue developing and maintaining open-source proje
 -  <img width="147" height="56" alt="Image" src="https://github.com/user-attachments/assets/4240bc46-a3ac-4ce2-9b69-432e8dfa0067" />
  **TON (The Open Network)**
   
-  `UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1`
+  ```
+  UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1
+  ```
 
   Send Toncoin☝️☝️ or anything based on TON to support my projects on The Open Network (TON).
 
@@ -115,7 +117,9 @@ Your contributions help me continue developing and maintaining open-source proje
 - <img width="800" height="201" alt="Image" src="https://github.com/user-attachments/assets/f3c84e84-9011-4470-97d6-f4b395e5c3a1" />
  **Etherium**
   
-  ```0x56dC57B9D03C6b947e49a28edC7e18FBe383365a```
+  ```
+  0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
+  ```
 
 Send Anything on Etherium Chain
 
