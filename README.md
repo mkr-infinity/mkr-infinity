@@ -1,24 +1,37 @@
 
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
+
+
+
 ![Welcome image](https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310)
 
-# 💫 About Me:🥲
-🔭  Hi, I’m Kaif from हिन्दुस्तान 🇮🇳..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
- <br>⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love to do, so Just Connect With Me Along With Your Project Link And Details.
+
+<br><br>
+
+
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
+
+- 🔭 Hi, I’m Kaif from हिन्दुस्तान 🇮🇳..
+- 🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
+- ⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love to do, so Just Connect With Me Along With Your Project Link And Details.
  [Here](https://github.com/mkr-infinity/mkr-infinity/blob/main/README.md#connect-with-me)
  👈
 
 
+<br><br>
 
 
-# 🎣 Hobbies🗝️
-📱Android Rooting, Flashing Roms,GSI, etc. <br> 
-🍎iOS Jailbreaking.   <br> 
-⏰Overclocking, Undervolting.
+<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Hobbies" alt="Typing SVG" />
+
+- 📱Android Rooting, Flashing Roms,GSI, etc.
+- 🍎iOS Jailbreaking.
+- ⏰Overclocking, Undervolting.
 ❤️‍🩹Airdrop Hunter.
 
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
+
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=mkr-infinity&theme=nord&no-frame=false&no-bg=false&margin-w=4)
@@ -31,32 +44,8 @@
 ![](https://github-contributor-stats.vercel.app/api?username=mkr-infinity&limit=5&theme=gruvbox&combine_all_yearly_contributions=true)
 
 
-
-< ## 🌐 Socials:
-<br clear="both">
-
-<div align="center">
-  <a href="https://www.youtube.com/@mkr_edittz" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=mkr_edittz&color=F00&logoColor=F00&labelColor=299745&style=plastic" height="20" alt="youtube logo"  />
-  </a>
-  <a href="https://www.instagram.com/mkr_edittz" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=mkr_edittz&color=E4405F&logoColor=fa05e4&labelColor=653c62&style=plastic" height="20" alt="instagram logo"  />
-  </a>
-  <a href="https://www.facebook.com/mkr_edittz" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=mkr_edittz&color=1877F2&logoColor=1fd1d6&labelColor=2c8822&style=plastic" height="20" alt="facebook logo"  />
-  </a>
- <br clear="both">
-
-<br clear="both">
-
-<div align="center">
-  <a href="https://www.instagram.com/labze_kaifiyat" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=labze_kaifiyat&color=E4405F&logoColor=fa05e4&labelColor=653c62&style=plastic" height="20" alt="instagram logo"  />
-  </a>
-</div>
-
-
-###
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
 
 
 
@@ -75,8 +64,6 @@
   <a href="https://t.me/mkr_infinity" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=mkr_infinity&color=2CA5E0&logoColor=&labelColor=&style=plastic" height="43" alt="telegram logo"  />
   </a>
-
-
 
 
 
