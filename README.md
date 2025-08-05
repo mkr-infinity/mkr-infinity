@@ -2,8 +2,8 @@
 ![Welcome image](https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310)
 
 # 💫 About Me:🥲
-🔭  Hi, I’m Kaif from 🌍👈 this Gola..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
- <br>⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love To Join Your Beta Or Testnet Programme, Just Connect With Me Along With Your Project Link And Details.
+🔭  Hi, I’m Kaif from हिन्दुस्तान 🇮🇳..<br>🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
+ <br>⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love to do, so Just Connect With Me Along With Your Project Link And Details.
  [Here](https://github.com/mkr-infinity/mkr-infinity/blob/main/README.md#connect-with-me)
  👈
 
@@ -32,7 +32,7 @@
 
 
 
-## 🌐 Socials:
+< ## 🌐 Socials:
 <br clear="both">
 
 <div align="center">
@@ -91,7 +91,7 @@
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
-## 🌀 Support My Work
+## 🍾 Support My Work 🥳
 
 If you find my work valuable, consider supporting me through the following platforms.  <br>
 Your contributions help me continue developing and maintaining open-source projects!.
@@ -115,16 +115,21 @@ Your contributions help me continue developing and maintaining open-source proje
 
 
 
+
 - <img width="800" height="201" alt="Image" src="https://github.com/user-attachments/assets/f3c84e84-9011-4470-97d6-f4b395e5c3a1" />
  **Etherium**
   
   ```
-  0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
+   0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
   ```
 
 Send Anything(Token/NFT) on Etherium Chain.
 
+
 <br>
+
+
+
 
 - <img width="2584" height="384" alt="Image" src="https://github.com/user-attachments/assets/a642c5e6-216b-43bd-90be-65097cf4f9f3" />
  **Solana**
@@ -133,6 +138,7 @@ Send Anything(Token/NFT) on Etherium Chain.
   9JEjaDCfe9esp6ECpyww7Gm3NUcieiy7hMU1pKMQVWxP
   ```
   Send Anything(Token) In Solana Chain.
+
 
 
 
@@ -146,7 +152,8 @@ Send Anything(Token/NFT) on Etherium Chain.
 
 <img width="250" height="75" alt="Image" src="https://github.com/user-attachments/assets/fe380ea4-6526-423e-8a66-2385918dcea5" />
 
-- ⭐ You can send **NFT** OR **Stars** directly to me on telegram
+- ⭐ You can send ***NFT*** OR ***Stars*** directly to me on [Telegram](https://t.me/mkr_infinity)
+  
 - 💬 [Contact @mkr_infinity](https://t.me/mkr_infinity)
 
 *Note: Please include your GitHub username when donating NFTs so I can thank you!*
