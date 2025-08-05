@@ -1,14 +1,9 @@
 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
-
-
-
 ![Welcome image](https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310)
 
 
 <br><br>
-
 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
@@ -31,6 +26,7 @@
 ❤️‍🩹Airdrop Hunter.
 
 
+<br><br>
 
 
 ## 🏆 GitHub Trophies
