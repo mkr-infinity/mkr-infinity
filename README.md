@@ -14,7 +14,7 @@
 📱Android Rooting, Flashing Roms,GSI, etc. <br> 
 🍎iOS Jailbreaking.   <br> 
 ⏰Overclocking, Undervolting.
-❤️‍🩹Airdrop Hunter, Testnet Lover.
+❤️‍🩹Airdrop Hunter.
 
 
 ### ✍️ Random Dev Quote
