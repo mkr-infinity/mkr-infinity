@@ -91,19 +91,21 @@
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 
-## 🌈 Support My Work
+## 🌀 Support My Work
 
 If you find my work valuable, consider supporting me through the following platforms.  <br>
 Your contributions help me continue developing and maintaining open-source projects!.
 
-### 🌟 Crypto Donations
+<br>
+
+### 🌟 Crypto Donations 😇
 - **TON (The Open Network)**
   
   <img width="147" height="56" alt="Image" src="https://github.com/user-attachments/assets/4240bc46-a3ac-4ce2-9b69-432e8dfa0067" />
   
   `UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1`
 
-  Send Toncoin or anything based on TON to support my projects on The Open Network (TON).
+  Send Toncoin☝️☝️ or anything based on TON to support my projects on The Open Network (TON).
 
 
   
