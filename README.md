@@ -110,6 +110,7 @@ Your contributions help me continue developing and maintaining open-source proje
 
   Send Toncoin☝️☝️ or anything based on TON to support my projects on The Open Network (TON).
 
+
 <br>
 
 
@@ -123,5 +124,13 @@ Your contributions help me continue developing and maintaining open-source proje
 
 Send Anything on Etherium Chain
 
+<br>
 
+- <img width="2584" height="384" alt="Image" src="https://github.com/user-attachments/assets/a642c5e6-216b-43bd-90be-65097cf4f9f3" />
+ **Solana**
+
+  ```
+  9JEjaDCfe9esp6ECpyww7Gm3NUcieiy7hMU1pKMQVWxP
+  ```
+  Send Anything In Solana Chain
   
