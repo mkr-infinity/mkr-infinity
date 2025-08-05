@@ -136,12 +136,15 @@ Send Anything(Token/NFT) on Etherium Chain.
 
 
 
+<br>
+
+
 
 
 
  ### 💖 Support Via Telegram
 
-<img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/4f77bb8c-4b04-4584-9221-57d86e58e335" />
+<img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/4f77bb8c-4b04-4584-9221-57d86e58e335" />
 
 
 
