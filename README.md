@@ -122,7 +122,7 @@ Your contributions help me continue developing and maintaining open-source proje
   0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
   ```
 
-Send Anything on Etherium Chain.
+Send Anything(Token/NFT) on Etherium Chain.
 
 <br>
 
@@ -132,5 +132,5 @@ Send Anything on Etherium Chain.
   ```
   9JEjaDCfe9esp6ECpyww7Gm3NUcieiy7hMU1pKMQVWxP
   ```
-  Send Anything In Solana Chain.
+  Send Anything(Token) In Solana Chain.
   
