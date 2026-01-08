@@ -30,6 +30,8 @@
 |-------|-----------------|
 | ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=radical) | ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mkr-infinity&theme=radical) |
 
+
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Random+Dev+Quote" alt="Typing SVG" />
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
