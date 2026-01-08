@@ -24,32 +24,12 @@
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 <br><br>
 
-![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
-<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Github+Trophies" alt="Typing SVG" />
-
-![](https://github-profile-trophy.vercel.app/?username=mkr-infinity&theme=nord&no-frame=false&no-bg=false&margin-w=4)
-
-<br><br>
 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Github+Stats" alt="Typing SVG" />
-
-![](https://github-readme-stats.vercel.app/api?username=mkr-infinity&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=dark&hide_border=false)
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Top+Contributed+Repo" alt="Typing SVG" />
-
-![](https://github-contributor-stats.vercel.app/api?username=mkr-infinity&limit=5&theme=gruvbox&combine_all_yearly_contributions=true)
-
-![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Random+Dev+Quote" alt="Typing SVG" />
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
-![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
-
 ![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
 
 
@@ -79,11 +59,11 @@
 ## 🍾 Support My Work 🥳
 
 If you find my work valuable, consider supporting me through the following platforms.  <br>
-Your contributions help me continue developing and maintaining open-source projects!.
+Your contributions help me continue developing and maintaining open-source projects and simple readme!.
 
 <br>
 
-### 🌟 Crypto Donations 😇
+### 🌟 Crypto Support 😇
 
 
 -  <img width="147" height="56" alt="Image" src="https://github.com/user-attachments/assets/4240bc46-a3ac-4ce2-9b69-432e8dfa0067" />
@@ -137,9 +117,9 @@ Send Anything(Token/NFT) on Etherium Chain.
 
 <img width="250" height="75" alt="Image" src="https://github.com/user-attachments/assets/fe380ea4-6526-423e-8a66-2385918dcea5" />
 
-- ⭐ You can send ***NFT*** OR ***Stars*** directly to me on [Telegram](https://t.me/mkr_infinity)
+  ⭐ You can send ***NFT*** OR ***Stars*** directly to me on [Telegram](https://t.me/mkr_infinity)
   
-- 💬 [Contact @mkr_infinity](https://t.me/mkr_infinity)
+  💬 [Contact @mkr_infinity](https://t.me/mkr_infinity)
 
 *Note: Please include your GitHub username when donating NFTs so I can thank you!*
 
