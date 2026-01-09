@@ -8,7 +8,7 @@
 ![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
 
-- 🔭 Hi, I’m Kaif from हिन्दुस्तान 🇮🇳..
+- 🔭 Hi, I’m Kaif from INDIA🇮🇳..
 - 🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
 - ⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love to do, so Just Connect With Me Along With Your Project Link And Details.
  [Here](https://github.com/mkr-infinity/mkr-infinity/blob/main/README.md#connect-with-me)
