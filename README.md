@@ -5,7 +5,9 @@
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
-![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
+
+---
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
 
 - 🔭 Hi, I’m Kaif from INDIA 🇮🇳..
@@ -22,6 +24,10 @@
 - ⏰Overclocking, Undervolting.
 ❤️‍🩹Airdrop Hunter.
 
+
+---
+
+
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 <br><br>
 
@@ -30,6 +36,8 @@
 |-------|-----------------|
 | ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=radical) | ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mkr-infinity&theme=radical) |
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+<br><br>
 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Random+Dev+Quote" alt="Typing SVG" />
