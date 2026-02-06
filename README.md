@@ -12,17 +12,20 @@
 
 - 🔭 Hi, I’m Kaif from INDIA 🇮🇳..
 - 🤝 How to reach me  [mkr_infinity](https://www.instagram.com/mkr_infinity)
-- ⚡ Wants Me To Work With Your Project, Test Any Build, I Will Love to do, so Just Connect With Me Along With Your Project Link And Details.
+- ⚡ Want me to Work With Your Project, Test any Build, I Will Love to do, so Just Connect With me Along with your Project Link and Details
  [Here](https://github.com/mkr-infinity/mkr-infinity/blob/main/README.md#connect-with-me)
 
 <br><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Hobbies" alt="Typing SVG" />
 
-- 📱Android Rooting, Flashing Roms,GSI, etc.
-- 🍎iOS Jailbreaking.
-- ⏰Overclocking, Undervolting.
-❤️‍🩹Airdrop Hunter.
+- 📱Android Rooting, Overclocking, Undervolting, Flashing Roms, GSI(Generic System Image), OS(Operating Systems)  etc.
+- 💻ISO Flashing, Testing Diffenerent ISO's.
+- Custom ISO flashing & Linux distro tweaking.
+- Building bootable media with personalized configs.
+- Exploring, modifying, and optimizing open‑source systems.
+- ❤️‍🩹Beta apps Testing, Airdrop Farming(Yet Earnings=0).
+- And much more can not reveal 😁.....
 
 
 ---
