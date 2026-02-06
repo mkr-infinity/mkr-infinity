@@ -57,13 +57,13 @@
 
 <div align="center">
   <a href="https://www.youtube.com/@mkrinfinity" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=labze_kaifiyat&color=FF0000&logoColor=red&labelColor=&style=plastic" height="43" alt="youtube logo"  />
+    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=labze_kaifiyat&color=FF0000&logoColor=red&labelColor=&style=plastic" height="93" alt="youtube logo"  />
   </a>
   <a href="https://www.instagram.com/mkr_infinity" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=mkr_infinity&color=E4405F&logoColor=cyan&labelColor=&style=plastic" height="43" alt="instagram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=mkr_infinity&color=E4405F&logoColor=cyan&labelColor=&style=plastic" height="63" alt="instagram logo"  />
   </a>
   <a href="https://t.me/mkr_infinity" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=mkr_infinity&color=2CA5E0&logoColor=&labelColor=&style=plastic" height="43" alt="telegram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=mkr_infinity&color=2CA5E0&logoColor=&labelColor=&style=plastic" height="73" alt="telegram logo"  />
   </a>
 
 
