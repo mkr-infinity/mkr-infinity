@@ -135,7 +135,7 @@ Send Anything(Token/NFT) on Etherium Chain.
 
   ⭐ You can send ***NFT*** OR ***Stars*** directly to me on [Telegram](https://t.me/mkr_infinity)
   
-  💬 [Contact @mkr_infinity](https://t.me/mkr_infinity)
+  💬 Contact [@mkr_infinity](https://t.me/mkr_infinity)
 
 *Note: Please include your GitHub username when donating NFTs so I can thank you!*
 
