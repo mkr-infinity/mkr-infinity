@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Kaif Raja | Web3 Portfolio</title>
+    <meta name="description" content="Premium Web3 Portfolio of Mohammad Kaif Raja - Designer, and Web3 Enthusiast.">
+    
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        glass: 'rgba(255, 255, 255, 0.05)',
+                        'glass-border': 'rgba(255, 255, 255, 0.1)',
+                    },
+                    animation: {
+                        'gradient-x': 'gradient-x 15s ease infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite',
+                        'light-sweep': 'light-sweep 3s linear infinite',
+                    },
+                    keyframes: {
+                        'gradient-x': {
+                            '0%, 100%': { 'background-position': '0% 50%' },
+                            '50%': { 'background-position': '100% 50%' },
+                        },
+                        'float': {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        'glow': {
+                            '0%, 100%': { opacity: 0.8, filter: 'brightness(1)' },
+                            '50%': { opacity: 1, filter: 'brightness(1.5)' },
+                        },
+                        'light-sweep': {
+                            '0%': { transform: 'translateX(-100%)' },
+                            '100%': { transform: 'translateX(100%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#0d0d0d] text-white selection:bg-red-500/30 overflow-x-hidden">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div id="loader-container" class="loader-content">
+            <!-- Loader will be injected here -->
+        </div>
+        <div class="loader-text">Initializing Systems...</div>
+    </div>
+    
+    <!-- Animated Background -->
+    <div class="fixed inset-0 z-[-1] overflow-hidden bg-dragon">
+        <div class="dragon-texture absolute inset-0 pointer-events-none"></div>
+        <canvas id="particle-canvas" class="absolute inset-0"></canvas>
+        <div id="aurora" class="absolute inset-0 opacity-20 blur-[100px] transition-colors duration-1000 bg-red-900/10"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="main-nav" class="fixed top-0 left-0 right-0 z-[1000] p-6 md:p-8 flex justify-between items-center transition-transform duration-300">
+        <div class="flex flex-row items-center justify-between w-full">
+            <div id="brand-container-wrapper" class="transition-all duration-500">
+                <h1 id="sticky-name" class="text-sm md:text-xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-amber-500 to-red-600 animate-gradient-x glow-aura">
+                    Mohammad Kaif Raja
+                </h1>
+            </div>
+            <!-- Hamburger Menu -->
+            <button id="menu-toggle-btn" class="pointer-events-auto p-3 glass rounded-xl border border-white/10 hover:border-red-500/30 transition-all group">
+                <div class="w-6 h-5 flex flex-col justify-between items-end">
+                    <span class="w-full h-0.5 bg-white rounded-full group-hover:bg-red-500 transition-all"></span>
+                    <span class="w-2/3 h-0.5 bg-white rounded-full group-hover:bg-red-500 transition-all"></span>
+                    <span class="w-full h-0.5 bg-white rounded-full group-hover:bg-red-500 transition-all"></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Modern Menu Overlay -->
+    <div id="modern-menu" class="fixed top-0 right-0 w-80 h-screen z-[1001] glass border-l border-white/10 translate-x-full transition-transform duration-500 ease-in-out flex flex-col p-10">
+        <button id="close-menu" class="self-end p-2 hover:text-red-500 transition-colors mb-10">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <div class="flex flex-col gap-6 text-2xl font-bold">
+            <a href="#home" class="menu-link hover:text-red-500 transition-colors">Home</a>
+            <a href="#skills" class="menu-link hover:text-red-500 transition-colors">Skills</a>
+            <a href="#offer" class="menu-link hover:text-red-500 transition-colors">Offer</a>
+            <a href="#projects" class="menu-link hover:text-red-500 transition-colors">Projects</a>
+            <a href="#contact" class="menu-link hover:text-red-500 transition-colors">Contact</a>
+        </div>
+        <div class="mt-auto pt-10 border-t border-white/10">
+            <div class="flex gap-6 justify-center">
+                <a href="https://t.me/mkr_infinity" target="_blank" class="text-blue-400 hover:scale-110 transition-transform"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.53-1.39.52-.46-.01-1.35-.26-2.01-.48-.81-.27-1.45-.41-1.39-.86.03-.24.35-.48.96-.73 3.76-1.64 6.27-2.72 7.53-3.25 3.58-1.5 4.32-1.76 4.81-1.77.11 0 .35.03.51.16.13.11.17.26.19.37.02.08.02.24.01.37z"/></svg></a>
+                <a href="https://github.com/mkr-infinity" target="_blank" class="text-white hover:scale-110 transition-transform"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a>
+                <a href="https://instagram.com/mkr_infinity/" target="_blank" class="text-pink-500 hover:scale-110 transition-transform"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="fixed bottom-6 right-6 z-[1000]">
+        <button id="theme-toggle" class="p-4 glass rounded-full border border-red-500/30 shadow-[0_0_20px_rgba(239,68,68,0.2)] bg-black/40 backdrop-blur-md hover:scale-110 transition-transform" title="Toggle Theme">
+            <svg id="sun-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.242 17.657l.707.707M7.758 5.343l.707.707M12 7a5 5 0 100 10 5 5 0 000-10z"></path></svg>
+            <svg id="moon-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+        </button>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6 section-theme" data-theme="home">
+            <div class="max-w-4xl w-full text-center space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-1000">
+                <div class="relative inline-block group mb-8">
+                    <div class="absolute -inset-4 bg-gradient-to-tr from-red-600 to-amber-500 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                    <div class="relative w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full overflow-hidden border-4 border-red-600/50 glass shadow-2xl shadow-red-600/20">
+                        <img src="assets/me.png" alt="Mohammad Kaif Raja" class="w-full h-full object-cover transition duration-700 hover:scale-110">
+                    </div>
+                </div>
+                
+                <div class="space-y-4">
+                    <h2 class="text-4xl md:text-6xl font-black tracking-tighter leading-tight red-gold-gradient">
+                        Mohammad Kaif Raja
+                    </h2>
+                    <div class="h-16 flex items-center justify-center">
+                        <span id="typing-skill" class="text-2xl md:text-3xl font-bold tracking-tight text-amber-500"></span>
+                        <span class="w-1 h-8 bg-amber-500 ml-2 animate-pulse">|</span>
+                    </div>
+                </div>
+
+                <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+                    Building the future of automation, community management, and Web3. Focused on creating efficient, community-driven digital experiences.
+                </p>
+
+                <!-- Dynamic Socials -->
+                <div class="px-8 md:px-16 w-full max-w-4xl mx-auto">
+                    <div id="social-container" class="relative group mt-8 w-full flex items-center justify-center gap-6 md:gap-12 py-6">
+                            <a href="https://t.me/mkr_infinity" target="_blank" class="social-icon-btn group/icon">
+                                <svg class="w-8 h-8 md:w-10 md:h-10 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.53-1.39.52-.46-.01-1.35-.26-2.01-.48-.81-.27-1.45-.41-1.39-.86.03-.24.35-.48.96-.73 3.76-1.64 6.27-2.72 7.53-3.25 3.58-1.5 4.32-1.76 4.81-1.77.11 0 .35.03.51.16.13.11.17.26.19.37.02.08.02.24.01.37z"/></svg>
+                            </a>
+                            <a href="https://github.com/mkr-infinity" target="_blank" class="social-icon-btn group/icon">
+                                <svg class="w-8 h-8 md:w-10 md:h-10 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+                            </a>
+                            <a href="https://instagram.com/mkr_infinity/" target="_blank" class="social-icon-btn group/icon">
+                                <svg class="w-8 h-8 md:w-10 md:h-10 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise Section -->
+        <section id="skills" class="py-32 px-6 section-theme" data-theme="skills">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-20 text-center">
+                    <h2 class="text-4xl md:text-6xl font-bold tracking-tight">Skills & <span class="text-amber-500">Expertise</span></h2>
+                    <p class="text-gray-400 mt-4">Professional capabilities developed over years of experience.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Python Development -->
+                    <div class="glass p-8 rounded-2xl border border-white/10 hover:border-red-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-red-500/20 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <img src="https://cdn.simpleicons.org/python/FFD43B" class="w-8 h-8" alt="Python">
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Python Development</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Automation, scripting, backend development, and building efficient computational solutions.</p>
+                    </div>
+                    <!-- Crypto Trading -->
+                    <div class="glass p-8 rounded-2xl border border-white/10 hover:border-amber-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-amber-500/20 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <img src="https://cdn.simpleicons.org/bitcoin/F7931A" class="w-8 h-8" alt="Crypto">
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Crypto Trading & Asset Management</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Portfolio management, in-depth market analysis, strategic trading, and risk assessment.</p>
+                    </div>
+                    <!-- Channel Management -->
+                    <div class="glass p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <img src="https://cdn.simpleicons.org/telegram/26A5E4" class="w-8 h-8" alt="Telegram">
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Channel Management</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Building and managing online communities since 2019. Expertise in engagement, moderation, and growth (7+ years experience).</p>
+                    </div>
+                    <!-- Web Design -->
+                    <div class="glass p-8 rounded-2xl border border-white/10 hover:border-purple-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-8 h-8" alt="Tailwind">
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Web Design</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Crafting modern, responsive websites using cutting-edge AI-powered design tools.</p>
+                    </div>
+                    <!-- Profile Optimization -->
+                    <div class="glass p-8 rounded-2xl border border-white/10 hover:border-emerald-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <img src="https://cdn.simpleicons.org/linkedin/0A66C2" class="w-8 h-8" alt="LinkedIn">
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Profile Optimization</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Expertly crafting professional digital identities across multiple platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Offer Section -->
+        <section id="offer" class="py-32 px-6 section-theme" data-theme="offer">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-20 text-center">
+                    <h2 class="text-4xl md:text-6xl font-bold tracking-tight">What I <span class="text-red-500">Offer</span></h2>
+                    <p class="text-gray-400 mt-4">Tailored services to help you excel in the digital landscape.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <!-- Python Automation -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Python Automation</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-red-500 rounded-full"></span> Process Automation</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-red-500 rounded-full"></span> Data Analysis</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-red-500 rounded-full"></span> API Integration</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-red-500 rounded-full"></span> Custom Tools</li>
+                        </ul>
+                    </div>
+                    <!-- Crypto Consulting -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Crypto Consulting</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Trading Strategies</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Portfolio Review</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Market Analysis</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Risk Management</li>
+                        </ul>
+                    </div>
+                    <!-- Community Management -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Community Management</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Channel Setup</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Growth Strategy</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Engagement Plans</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Moderation</li>
+                        </ul>
+                    </div>
+                    <!-- Web Design Assistance -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Web Design Assistance</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Landing Pages</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Portfolio Sites</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Business Websites</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> UI/UX Design</li>
+                        </ul>
+                    </div>
+                    <!-- Profile Optimization -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Profile Optimization</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> LinkedIn Optimization</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> GitHub Profile</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> Social Media</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> Personal Branding</li>
+                        </ul>
+                    </div>
+                    <!-- Market Analysis -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Market Analysis</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> Trend Forecasting</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> Data-Driven Insights</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> Competitor Research</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> On-chain Analytics</li>
+                        </ul>
+                    </div>
+                    <!-- Security Auditing -->
+                    <div class="glass p-8 rounded-2xl border border-white/10">
+                        <h3 class="text-2xl font-bold mb-6 text-white">Security Auditing</h3>
+                        <ul class="space-y-4 text-gray-400 text-sm">
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Smart Contract Review</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Vulnerability Scans</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Security Protocols</li>
+                            <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Risk Mitigation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="https://t.me/mkr_infinity" target="_blank" class="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-red-600 to-amber-600 rounded-full text-white font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-red-600/20">
+                        Let's Work Together <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-32 px-6 section-theme" data-theme="projects">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-20">
+                    <h2 class="text-4xl md:text-6xl font-bold tracking-tight">Technical <span class="text-amber-500">Projects</span></h2>
+                    <p class="text-gray-400 mt-4">Exploring the frontiers of automation and Web3.</p>
+                </div>
+
+                <!-- Featured Project: Matrix Calculator -->
+                <div class="mb-20 glass rounded-3xl border border-white/10 overflow-hidden group hover:border-amber-500/30 transition-all duration-500">
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <div class="p-8 md:p-12 space-y-6">
+                            <div class="flex items-center gap-3">
+                                <span class="px-3 py-1 bg-amber-500/20 text-amber-500 text-xs font-black uppercase tracking-widest rounded-full border border-amber-500/30">Featured Project</span>
+                                <div class="flex gap-2">
+                                    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+                                    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License">
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-16 h-16 bg-amber-500/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                                    <svg class="w-10 h-10 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <h3 class="text-3xl md:text-4xl font-black tracking-tighter">Matrix Calculator</h3>
+                            </div>
+                            <p class="text-gray-400 text-lg leading-relaxed">
+                                Powerful Python matrix calculator with advanced operations - addition, subtraction, multiplication, determinants, inverses, eigenvalues.
+                            </p>
+                            <div class="grid grid-cols-2 gap-4 text-sm">
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Addition & Subtraction</div>
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Matrix Multiplication</div>
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Determinant Analysis</div>
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Inverse Calculation</div>
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Eigenvalue Discovery</div>
+                                <div class="flex items-center gap-2 text-gray-300"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span> Transpose Operations</div>
+                            </div>
+                            <div class="flex flex-wrap gap-4 pt-4">
+                                <a href="https://github.com/mkr-infinity/Matrix-Calculator" target="_blank" class="px-6 py-3 bg-white text-black font-bold rounded-xl hover:bg-amber-500 transition-colors flex items-center gap-2">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+                                    View on GitHub
+                                </a>
+                                <a href="https://github.com/mkr-infinity" target="_blank" class="px-6 py-3 glass border border-white/10 text-white font-bold rounded-xl hover:bg-white/5 transition-colors">More Projects</a>
+                            </div>
+                        </div>
+                        <div class="relative hidden lg:block overflow-hidden bg-gradient-to-br from-amber-500/20 to-red-600/20">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-20">
+                                <svg class="w-64 h-64 text-amber-500 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <div class="absolute inset-0 bg-grid-amber-500/[0.05] [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                    <!-- Projects will be injected by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-32 px-6 section-theme" data-theme="contact">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-20 text-center">
+                    <h2 class="text-4xl md:text-6xl font-bold tracking-tight">Get In <span class="text-red-500">Touch</span></h2>
+                    <p class="text-gray-400 mt-4">Let's connect and build something extraordinary together.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="glass p-12 rounded-3xl border border-white/10 space-y-8">
+                        <div class="space-y-6">
+                            <h3 class="text-3xl font-bold">Contact Info</h3>
+                            <div class="space-y-4">
+                                <a href="mailto:mkrinfinity.eth@gmail.com" class="flex items-center gap-4 text-gray-400 hover:text-white transition-colors group">
+                                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center group-hover:bg-red-500/20 transition-colors">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 00-2 2z"></path></svg>
+                                    </div>
+                                    <span>mkrinfinity.eth@gmail.com</span>
+                                </a>
+                                <div class="flex items-center gap-4 text-gray-400 group">
+                                    <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    </div>
+                                    <span>Remote / Worldwide</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-6 pt-6 border-t border-white/10">
+                            <h3 class="text-xl font-bold text-gray-300">Social Connections</h3>
+                            <div class="flex flex-col gap-4">
+                                <a href="https://instagram.com/mkr_infinity/" target="_blank" class="insta-dynamic-btn group">
+                                    <div class="w-12 h-12 rounded-full glass border border-pink-500/30 flex items-center justify-center transition-all group-hover:scale-110 group-hover:shadow-[0_0_20px_rgba(236,72,153,0.3)]">
+                                        <svg class="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <span class="text-[10px] uppercase tracking-widest text-pink-500/60 font-black">Instagram</span>
+                                        <span class="text-lg font-bold text-gray-200 group-hover:text-white transition-colors">@mkr_infinity</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="glass p-12 rounded-3xl border border-white/10 space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-sm font-bold text-gray-400">Full Name</label>
+                                <input type="text" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-red-500 transition-colors" placeholder="John Doe">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-sm font-bold text-gray-400">Email Address</label>
+                                <input type="email" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-red-500 transition-colors" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-400">Subject</label>
+                            <input type="text" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-red-500 transition-colors" placeholder="Project Inquiry">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-400">Message</label>
+                            <textarea rows="4" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-red-500 transition-colors" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button class="w-full py-4 bg-gradient-to-r from-red-600 to-amber-600 rounded-xl font-bold text-lg hover:scale-105 transition-all shadow-lg shadow-red-600/20">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 border-t border-white/5 text-center text-gray-500 text-sm">
+        <p>© 2026 Mohammad Kaif Raja. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Custom Dot Cursor -->
+    <div id="dot-cursor" class="fixed w-2 h-2 bg-red-500 rounded-full pointer-events-none z-[9999] opacity-0 transition-opacity duration-300"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
