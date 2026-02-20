@@ -747,42 +747,45 @@ nav.scrolled #sticky-name {
     background: rgba(255, 0, 0, 0.4);
 }
 
-.aura-container {
-  position: absolute;
-  inset: -0.5rem;   /* tighter aura area, was -2rem */
-  z-index: 0;
+/* Logo wrapper */
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
+/* Logo itself */
+.site-logo {
+  width: 120px;   /* adjust size */
+  height: auto;
+  border-radius: 50%; /* circular logo */
+  position: relative;
+  z-index: 2;
+}
+
+/* Aura container hugs logo */
+.aura-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140px;   /* just slightly bigger than logo */
+  height: 140px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Fire aura */
 .aura-fire {
   position: absolute;
   inset: 0;
   border-radius: 50%;
   background: radial-gradient(circle,
-    rgba(255, 120, 0, 0.4) 0%,   /* softer orange */
-    rgba(255, 60, 0, 0.2) 60%,   /* fades quicker */
-    rgba(0, 0, 0, 0) 80%);
-  filter: blur(10px);            /* smaller blur, was 40px */
+    rgba(255, 120, 0, 0.4) 40%,   /* glow starts closer */
+    rgba(255, 60, 0, 0.2) 70%,
+    rgba(0, 0, 0, 0) 100%);
+  filter: blur(6px);              /* very tight blur */
   animation: firePulse 3s infinite alternate;
 }
 
+/* Sparkles aura */
 .aura-sparkles {
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: radial-gradient(circle,
-    rgba(255, 255, 200, 0.3) 0%, /* softer yellow */
-    rgba(255, 200, 0, 0.15) 40%,
-    rgba(0, 0, 0, 0) 70%);
-  filter: blur(6px);             /* smaller blur */
-  animation: sparkFlicker 2.5s infinite ease-in-out;
-}
-
-@keyframes firePulse {
-  0% { transform: scale(1); opacity: 0.5; }
-  100% { transform: scale(1.05); opacity: 0.8; }
-}
-
-@keyframes sparkFlicker {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.5; }
-}
