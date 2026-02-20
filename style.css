@@ -1,3 +1,45 @@
+/* down from here */
+.aura-container {
+  position: absolute;
+  inset: -2rem;
+  z-index: 0;
+}
+
+.aura-fire {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(255, 120, 0, 0.6) 0%,
+    rgba(255, 60, 0, 0.4) 40%,
+    rgba(0, 0, 0, 0) 70%);
+  filter: blur(40px);
+  animation: firePulse 2s infinite alternate;
+}
+
+.aura-sparkles {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(255, 255, 200, 0.8) 0%,
+    rgba(255, 200, 0, 0.3) 30%,
+    rgba(0, 0, 0, 0) 70%);
+  filter: blur(20px);
+  animation: sparkFlicker 1.5s infinite ease-in-out;
+}
+
+@keyframes firePulse {
+  0% { transform: scale(1); opacity: 0.7; }
+  100% { transform: scale(1.2); opacity: 1; }
+}
+
+@keyframes sparkFlicker {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+/* upper from here */
+
 /* Loading Screens */
 #loading-screen {
     position: fixed;
