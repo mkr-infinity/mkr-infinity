@@ -747,16 +747,22 @@ nav.scrolled #sticky-name {
     background: rgba(255, 0, 0, 0.4);
 }
 
+.aura-container {
+  position: absolute;
+  inset: -0.5rem;   /* tighter aura area, was -2rem */
+  z-index: 0;
+}
+
 .aura-fire {
   position: absolute;
   inset: 0;
   border-radius: 50%;
   background: radial-gradient(circle,
-    rgba(255, 120, 0, 0.3) 0%,   /* lower opacity */
-    rgba(255, 60, 0, 0.2) 40%,   /* softer red/orange */
-    rgba(0, 0, 0, 0) 70%);
-  filter: blur(20px);            /* smaller blur */
-  animation: firePulse 3s infinite alternate; /* slower pulse */
+    rgba(255, 120, 0, 0.4) 0%,   /* softer orange */
+    rgba(255, 60, 0, 0.2) 60%,   /* fades quicker */
+    rgba(0, 0, 0, 0) 80%);
+  filter: blur(10px);            /* smaller blur, was 40px */
+  animation: firePulse 3s infinite alternate;
 }
 
 .aura-sparkles {
@@ -764,19 +770,19 @@ nav.scrolled #sticky-name {
   inset: 0;
   border-radius: 50%;
   background: radial-gradient(circle,
-    rgba(255, 255, 200, 0.4) 0%, /* softer yellow */
-    rgba(255, 200, 0, 0.2) 30%,
+    rgba(255, 255, 200, 0.3) 0%, /* softer yellow */
+    rgba(255, 200, 0, 0.15) 40%,
     rgba(0, 0, 0, 0) 70%);
-  filter: blur(10px);            /* smaller blur */
-  animation: sparkFlicker 2s infinite ease-in-out; /* slower flicker */
+  filter: blur(6px);             /* smaller blur */
+  animation: sparkFlicker 2.5s infinite ease-in-out;
 }
 
 @keyframes firePulse {
   0% { transform: scale(1); opacity: 0.5; }
-  100% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1.05); opacity: 0.8; }
 }
 
 @keyframes sparkFlicker {
   0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.6; }
+  50% { opacity: 0.5; }
 }
