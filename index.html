@@ -654,6 +654,337 @@
   window.addEventListener('load', handleScroll);
 </script>
 
+
+
+
+<!-- scroll up -->
+
+
+
+                        <!-- Scroll Down Button (Top of Page) -->
+<div id="scroll-down" class="scroll-down" onclick="scrollDown()" title="Scroll Down">
+  <div class="scroll-down-content">
+    <span class="scroll-down-text">Scroll Down</span>
+    <div class="scroll-down-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+    </div>
+  </div>
+  <div class="scroll-down-glow"></div>
+  <div class="scroll-down-ring"></div>
+</div>
+
+<!-- Scroll to Top Button (Bottom of Page) -->
+<div id="scroll-to-top" class="scroll-to-top" onclick="scrollToTop()" title="Scroll to Top">
+  <div class="scroll-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </div>
+  <div class="scroll-glow"></div>
+</div>
+
+<!-- Scroll Progress Bar (Top of Page) -->
+<div class="scroll-progress-bar">
+  <div class="scroll-progress-fill" id="scroll-progress-fill"></div>
+</div>
+
+<!-- Required CSS Styles -->
+<style>
+  /* Scroll Down Button */
+  .scroll-down {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(139, 92, 246, 0.5);
+    overflow: hidden;
+  }
+
+  .scroll-down:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.7);
+  }
+
+  .scroll-down:active {
+    transform: translateY(-2px) scale(1.05);
+  }
+
+  .scroll-down.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+  }
+
+  .scroll-down-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .scroll-down-text {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+
+  .scroll-down-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    animation: bounce-down 1.5s infinite;
+  }
+
+  .scroll-down-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Glow Effect */
+  .scroll-down-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.6) 0%, transparent 70%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease;
+    z-index: 1;
+  }
+
+  .scroll-down:hover .scroll-down-glow {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+
+  /* Ring Animation */
+  .scroll-down-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+    animation: ring-expand 2s infinite;
+  }
+
+  @keyframes ring-expand {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1.8);
+      opacity: 0;
+    }
+  }
+
+  /* Scroll to Top Button */
+  .scroll-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.8);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4);
+    overflow: hidden;
+  }
+
+  .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+  }
+
+  .scroll-to-top:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.6);
+  }
+
+  .scroll-to-top:active {
+    transform: translateY(-2px) scale(1.05);
+  }
+
+  .scroll-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    animation: bounce-up 2s infinite;
+  }
+
+  .scroll-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Glow Effect for Scroll to Top */
+  .scroll-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.6) 0%, transparent 70%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease;
+    z-index: 1;
+  }
+
+  .scroll-to-top:hover .scroll-glow {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+
+  /* Scroll Progress Bar (Top of Page) */
+  .scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+  }
+
+  .scroll-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #8b5cf6 0%, #06b6d4 50%, #8b5cf6 100%);
+    transition: width 0.1s ease;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+  }
+
+  /* Animations */
+  @keyframes bounce-down {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(6px); }
+    60% { transform: translateY(3px); }
+  }
+
+  @keyframes bounce-up {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-6px); }
+    60% { transform: translateY(-3px); }
+  }
+
+  /* Pulse Animation */
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4); }
+    50% { box-shadow: 0 10px 60px rgba(139, 92, 246, 0.8); }
+  }
+
+  .scroll-to-top.visible {
+    animation: pulse-glow 2s infinite;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .scroll-down {
+      top: 80px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .scroll-to-top {
+      bottom: 80px;
+      right: 20px;
+      width: 45px;
+      height: 45px;
+    }
+  }
+</style>
+
+<!-- JavaScript Functionality -->
+<script>
+  // Show/Hide Scroll Buttons
+  function handleScroll() {
+    const scrollBtn = document.getElementById('scroll-to-top');
+    const scrollDownBtn = document.getElementById('scroll-down');
+    const progressFill = document.getElementById('scroll-progress-fill');
+    
+    // Get scroll position
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    
+    // Show scroll-to-top button after scrolling 300px
+    if (scrollTop > 300) {
+      scrollBtn.classList.add('visible');
+    } else {
+      scrollBtn.classList.remove('visible');
+    }
+    
+    // Hide scroll-down button after scrolling 300px
+    if (scrollTop > 300) {
+      scrollDownBtn.classList.add('hidden');
+    } else {
+      scrollDownBtn.classList.remove('hidden');
+    }
+    
+    // Update progress bar
+    if (progressFill) {
+      progressFill.style.width = scrollPercent + '%';
+    }
+  }
+
+  // Scroll Down Function
+  function scrollDown() {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth'
+    });
+  }
+
+  // Scroll to Top Function
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  // Event Listeners
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('load', handleScroll);
+</script>
+
     <!-- Custom Dot Cursor--> 
     <div id="dot-cursor" class="fixed w-1 h-1 bg-red-200 rounded-full pointer-events-none z-[9999] opacity-0 transition-opacity duration-200"></div>
 
