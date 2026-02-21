@@ -6,7 +6,14 @@
     <title>Mohammad Kaif Raja - Portfolio</title>
     <meta name="description" content="Mohammad Kaif Raja - Designer, and Web3 Enthusiast.">
 
+    <header class="site-header">
+  <!-- Aura container -->
+  <div class="absolute -inset-8 aura-container pointer-events-none">
+    <div class="aura-fire"></div>
+    <div class="aura-sparkles"></div>
+  </div>
 
+ 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -405,263 +412,15 @@
         </section>
     </main>
 
-
-    <!-- Available for Work Indicator - Place this before your copyright line -->
-<div style="position: relative; margin-top: 40px; padding: 20px; text-align: center; z-index: 10;">
-  
-  <!-- Glowing green dot -->
-  <div style="display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; background: rgba(34, 197, 94, 0.05); border-radius: 50px; border: 1px solid rgba(34, 197, 94, 0.2);">
-    
-    <!-- Core green dot -->
-    <div style="position: relative;">
-      <!-- Core green dot -->
-      <div style="width: 12px; height: 12px; border-radius: 50%; background: #22c55e; box-shadow: 0 0 15px rgba(34, 197, 94, 0.6);"></div>
-      <!-- Pulsing ring animation -->
-      <div style="position: absolute; inset: 0; width: 12px; height: 12px; border-radius: 50%; background: #4ade80; animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite; opacity: 0.75;"></div>
-      <!-- Outer glow effect -->
-      <div style="position: absolute; inset: -6px; width: 24px; height: 24px; border-radius: 50%; background: rgba(34, 197, 94, 0.2); filter: blur(6px); animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></div>
-    </div>
-    
-    <!-- "Available for Work" text badge -->
-    <span style="font-size: 14px; font-weight: 600; color: #4ade80;">
-      Available for Work
-    </span>
-  </div>
-</div>
-
-<!-- Add this animation keyframes in your CSS or style tag -->
-<style>
-  @keyframes ping {
-    75%, 100% {
-      transform: scale(2);
-      opacity: 0;
-    }
-  }
-  @keyframes pulse {
-    0%, 100% {
-      opacity: 0.4;
-    }
-    50% {
-      opacity: 0.8;
-    }
-  }
-</style>
-                        
     <footer class="py-12 border-t border-white/5 text-center text-gray-500 text-sm">
-        <p>© 2026 Mohammad Kaif Raja.         All Rights Reserved.</p>
-
+        <p>© 2026 Mohammad Kaif Raja.     All Rights Reserved.</p>
     </footer>
 
-
-
-
-<!-- the scroll up -->
-
-                        <!-- Scroll to Top Button -->
-<div id="scroll-to-top" class="scroll-to-top" onclick="scrollToTop()" title="Scroll to Top">
-  <div class="scroll-icon">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M18 15l-6-6-6 6"/>
-    </svg>
-  </div>
-  <div class="scroll-progress"></div>
-  <div class="scroll-glow"></div>
-</div>
-
-<!-- Scroll Progress Bar (Optional) -->
-<div class="scroll-progress-bar">
-  <div class="scroll-progress-fill" id="scroll-progress-fill"></div>
-</div>
-
-<!-- Required CSS Styles -->
-<style>
-  /* Scroll to Top Button */
-  .scroll-to-top {
-    position: fixed;
-    bottom: 100px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px) scale(0.8);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4);
-    overflow: hidden;
-  }
-
-  .scroll-to-top.visible {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0) scale(1);
-  }
-
-  .scroll-to-top:hover {
-    transform: translateY(-5px) scale(1.1);
-    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.6);
-  }
-
-  .scroll-to-top:active {
-    transform: translateY(-2px) scale(1.05);
-  }
-
-  .scroll-icon {
-    width: 24px;
-    height: 24px;
-    color: white;
-    position: relative;
-    z-index: 2;
-    animation: bounce 2s infinite;
-  }
-
-  .scroll-icon svg {
-    width: 100%;
-    height: 100%;
-  }
-
-  /* Glow Effect */
-  .scroll-glow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.6) 0%, transparent 70%);
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0.4s ease;
-    z-index: 1;
-  }
-
-  .scroll-to-top:hover .scroll-glow {
-    transform: translate(-50%, -50%) scale(1.5);
-  }
-
-  /* Progress Ring */
-  .scroll-progress {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.8);
-    animation: spin 2s linear infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .scroll-to-top:hover .scroll-progress {
-    opacity: 1;
-  }
-
-  /* Scroll Progress Bar (Top of Page) */
-  .scroll-progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.1);
-    z-index: 1000;
-    backdrop-filter: blur(4px);
-  }
-
-  .scroll-progress-fill {
-    height: 100%;
-    width: 0%;
-    background: linear-gradient(90deg, #8b5cf6 0%, #06b6d4 50%, #8b5cf6 100%);
-    transition: width 0.1s ease;
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
-  }
-
-  /* Animations */
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-6px); }
-    60% { transform: translateY(-3px); }
-  }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  /* Pulse Animation */
-  @keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4); }
-    50% { box-shadow: 0 10px 60px rgba(139, 92, 246, 0.8); }
-  }
-
-  .scroll-to-top.visible {
-    animation: pulse-glow 2s infinite;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .scroll-to-top {
-      bottom: 80px;
-      right: 20px;
-      width: 45px;
-      height: 45px;
-    }
-  }
-</style>
-
-<!-- JavaScript Functionality -->
-<script>
-  // Show/Hide Scroll Button
-  function handleScroll() {
-    const scrollBtn = document.getElementById('scroll-to-top');
-    const progressFill = document.getElementById('scroll-progress-fill');
-    
-    // Get scroll position
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrollPercent = (scrollTop / docHeight) * 100;
-    
-    // Show button after scrolling 300px
-    if (scrollTop > 300) {
-      scrollBtn.classList.add('visible');
-    } else {
-      scrollBtn.classList.remove('visible');
-    }
-    
-    // Update progress bar
-    if (progressFill) {
-      progressFill.style.width = scrollPercent + '%';
-    }
-  }
-
-  // Scroll to Top Function
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-
-  // Event Listeners
-  window.addEventListener('scroll', handleScroll);
-  window.addEventListener('load', handleScroll);
-</script>
-
-
-
-
-    <!-- Custom Dot Cursor--> 
-    <div id="dot-cursor" class="fixed w-1 h-1 bg-red-200 rounded-full pointer-events-none z-[9999] opacity-0 transition-opacity duration-200"></div>
+    <!-- Custom Dot Cursor -->
+    <div id="dot-cursor" class="fixed w-2 h-2 bg-red-500 rounded-full pointer-events-none z-[9999] opacity-0 transition-opacity duration-300"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="script.js" type="module"></script>
 </body>
 </html>
-
+                        
