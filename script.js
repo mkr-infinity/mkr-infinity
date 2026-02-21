@@ -86,11 +86,13 @@ function initTypingEffect() {
     const text = document.getElementById('typing-skill');
     if (!text) return;
     const skills = [
-        "Python Developer",
-        "Asset Manager",
+        "Tech Enthusiast",
+        "Professional Branding",
         "Channel Specialist",
         "Community Manager",
-        "Profile Optimizer"
+        "Asset Manager",
+        "Telegram Channel Management",
+        "Community Growth Strategy"
     ];
     let skillIndex = 0;
     let charIndex = 0;
@@ -156,7 +158,7 @@ function initSkills() {
 async function fetchProjects() {
     const grid = document.getElementById('projects-grid');
     if (!grid) return;
-    const skipRepos = ['kaif', 'sonu', 'period-calculator'];
+    const skipRepos = ['kaif', 'sonu', 'ashvin', 'image-generator', 'period-calculator'];
     try {
         const res = await fetch('https://api.github.com/users/mkr-infinity/repos?sort=updated&per_page=20');
         const repos = await res.json();
