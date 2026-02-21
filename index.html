@@ -6,6 +6,20 @@
     <title>Mohammad Kaif Raja - Portfolio</title>
     <meta name="description" content="Mohammad Kaif Raja - Designer, and Web3 Enthusiast.">
 
+
+<!--scrol down -->
+       <div className="absolute bottom-8 right-8 flex flex-col items-center gap-3 z-20">
+        {/* Glowing text with gradient */}
+        <div className="relative group">
+          <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-cyan-600 rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
+          <span className="relative px-4 py-2 text-sm font-semibold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent uppercase tracking-widest">
+            Scroll down
+          </span>
+        </div>
+        
+        {/* Animated arrow container with multiple dots */}
+        <div className="flex flex-col items-center gap-2">
+          {/* Primary arrow with glow */}\n          <div className=\"relative w-6 h-10 rounded-full border-2 border-gradient-to-b from-violet-400 to-cyan-400 border-violet-400/40 flex items-start justify-center p-2 backdrop-blur-sm bg-white/5 group hover:border-violet-400/60 transition-all duration-300\">\n            {/* Scrolling dot animation */}\n            <div className=\"w-1.5 h-1.5 rounded-full bg-gradient-to-b from-violet-400 to-cyan-400 animate-bounce\" style={{ animationDuration: '1.5s' }} />\n          </div>\n          \n          {/* Floating arrows below */}\n          <div className=\"flex flex-col items-center gap-1 mt-2\">\n            <svg className=\"w-5 h-5 text-violet-400 animate-bounce\" style={{ animationDelay: '0s', animationDuration: '2s' }} fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth={2.5} d=\"M19 14l-7 7m0 0l-7-7m7 7V3\" />\n            </svg>\n            <svg className=\"w-5 h-5 text-cyan-400 animate-bounce\" style={{ animationDelay: '0.2s', animationDuration: '2s' }} fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth={2.5} d=\"M19 14l-7 7m0 0l-7-7m7 7V3\" />\n            </svg>\n          </div>\n        </div>\n      </div>
  
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
