@@ -86,13 +86,10 @@ function initTypingEffect() {
     const text = document.getElementById('typing-skill');
     if (!text) return;
     const skills = [
-        "Python Developer",
-        "Asset Manager",
         "Tech Enthusiast",
         "Professional Branding",
         "Channel Specialist",
         "Community Manager",
-        "Profile Optimizer"
         "Asset Manager",
         "Telegram Channel Management",
         "Community Growth Strategy"
@@ -130,38 +127,12 @@ function initTypingEffect() {
     type();
 }
 
-// Skills Injection
-function initSkills() {
-    const skills = [
-        { name: 'Solidity', icon: '💎' },
-        { name: 'React', icon: '⚛️' },
-        { name: 'Python', icon: '🐍' },
-        { name: 'Ethers.js', icon: '⚡' },
-        { name: 'Tailwind', icon: '🎨' },
-        { name: 'Web3.js', icon: '🌐' }
-    ];
-    
-    const grid = document.getElementById('skills-grid');
-    if (grid) {
-        grid.innerHTML = '';
-        skills.forEach((skill, i) => {
-            const div = document.createElement('div');
-            div.className = 'glass p-8 rounded-2xl border border-red-900/20 animate-float h-full flex flex-col items-center justify-center gap-4 group hover:border-amber-500/30 transition-all';
-            div.style.animationDelay = `${i * 0.2}s`;
-            div.innerHTML = `
-                <span class="text-4xl group-hover:scale-125 transition-transform">${skill.icon}</span>
-                <span class="font-bold tracking-tight text-gray-200">${skill.name}</span>
-            `;
-            grid.appendChild(div);
-        });
-    }
-}
 
 // GitHub Projects Fetcher
 async function fetchProjects() {
     const grid = document.getElementById('projects-grid');
     if (!grid) return;
-    const skipRepos = ['kaif', 'sonu', 'ashvin', 'image-generator', 'period-calculator'];
+    const skipRepos = ['kaif', 'sonu', 'period-calculator'];
     try {
         const res = await fetch('https://api.github.com/users/mkr-infinity/repos?sort=updated&per_page=20');
         const repos = await res.json();
@@ -176,6 +147,8 @@ async function fetchProjects() {
                 if (b.name.toLowerCase() === 'mkr-infinity') return 1;
                 if (a.name.toLowerCase() === 'boka') return -1;
                 if (b.name.toLowerCase() === 'boka') return 1;
+                if (a.name.toLowerCase() === 'Matrix_Calculator') return -1;
+                if (b.name.toLowerCase() === 'Matrix_Calculator') return 1;
                 return (b.has_pages ? 1 : 0) - (a.has_pages ? 1 : 0);
             })
             .slice(0, 9);
@@ -230,26 +203,6 @@ async function fetchProjects() {
     }
 }
 
-// Copy Wallet
-function initWalletCopy() {
-    document.querySelectorAll('.wallet-card').forEach(card => {
-        card.addEventListener('click', () => {
-            const address = card.dataset.address;
-            navigator.clipboard.writeText(address);
-            
-            const toast = document.getElementById('toast');
-            if (toast) {
-                toast.style.transform = 'translate(-50%, 0)';
-                toast.style.opacity = '1';
-                
-                setTimeout(() => {
-                    toast.style.transform = 'translate(-50%, 20px)';
-                    toast.style.opacity = '0';
-                }, 3000);
-            }
-        });
-    });
-}
 
 // Mobile Menu
 function initMobileMenu() {
