@@ -670,9 +670,3 @@ nav.scrolled #sticky-name {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 0, 0, 0.4);
 }
-
-/* For narrower menu (covers less width) */
-fixed top-0 left-0 h-full w-48 md:w-64 bg-[#0d0d1a]/95 backdrop-blur-xl border-r border-white/10 shadow-2xl transform transition-transform duration-300 ease-in-out z-40
-
-/* For compact menu (not full height, appears as dropdown) */
-fixed top-16 right-4 h-auto w-56 bg-[#0d0d1a]/95 backdrop-blur-xl rounded-xl border border-white/10 shadow-2xl transform transition-all duration-300 ease-in-out z-40
