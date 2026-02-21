@@ -132,7 +132,7 @@ function initTypingEffect() {
 async function fetchProjects() {
     const grid = document.getElementById('projects-grid');
     if (!grid) return;
-    const skipRepos = ['kaif', 'sonu', 'period-calculator'];
+    const skipRepos = ['kaif', 'sonu', 'period-calculator', 'ashvin'];
     try {
         const res = await fetch('https://api.github.com/users/mkr-infinity/repos?sort=updated&per_page=20');
         const repos = await res.json();
@@ -147,8 +147,6 @@ async function fetchProjects() {
                 if (b.name.toLowerCase() === 'mkr-infinity') return 1;
                 if (a.name.toLowerCase() === 'boka') return -1;
                 if (b.name.toLowerCase() === 'boka') return 1;
-                if (a.name.toLowerCase() === 'Matrix_Calculator') return -1;
-                if (b.name.toLowerCase() === 'Matrix_Calculator') return 1;
                 return (b.has_pages ? 1 : 0) - (a.has_pages ? 1 : 0);
             })
             .slice(0, 9);
