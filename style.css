@@ -146,7 +146,7 @@
 
 .menu-link {
     position: relative;
-    width: fit-content;
+    width: auto;
 }
 
 .menu-link::after {
@@ -246,37 +246,7 @@ body.light .dragon-wing, body.light .dragon-branch {
     background: #0088ff;
 }
 
-/* Real Snake Animation */
-.snake-container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    inset: 0;
-    z-index: 5;
-}
 
-.snake-body {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: var(--dragon-color);
-    border-radius: 50%;
-    box-shadow: 0 0 15px var(--dragon-color);
-    pointer-events: none;
-}
-
-/* Dragon Background */
-.bg-dragon {
-    background-color: var(--theme-bg) !important;
-}
-
-.dragon-texture {
-    background-image: url('https://www.transparenttextures.com/patterns/dragon-scales.png');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    z-index: -2;
-    opacity: 0.1;
-}
 
 /* Golden Red Theme */
 .red-gold-gradient {
@@ -320,7 +290,7 @@ body.light #snake-game-canvas {
     }
 }
 
-/* Simplified Animations */
+/* Simplified Animations 
 .animate-float {
     animation: none !important;
 }
@@ -358,6 +328,83 @@ body.light #snake-game-canvas {
     justify-content: center;
     transition: all 0.3s ease;
 }
+
+/upper from this original
+
+
+/* Modernized Animations */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-light-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.animate-light-sweep::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: sweep 3s linear infinite;
+}
+
+.animate-pulse {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+/* Keyframes */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .7; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px rgba(255, 0, 0, 0.3); }
+  50% { text-shadow: 0 0 20px rgba(255, 0, 0, 0.6); }
+}
+
+@keyframes sweep {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+
+/* Glow Aura */
+.glow-aura {
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+/* Social Button */
+.social-box-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-box-btn:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+/*lower from this orig*/
 
 /* Burning Animation */
 .fire-bg {
