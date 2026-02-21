@@ -290,7 +290,7 @@ body.light #snake-game-canvas {
     }
 }
 
-/* Simplified Animations 
+/* Simplified Animations */
 .animate-float {
     animation: none !important;
 }
@@ -329,7 +329,7 @@ body.light #snake-game-canvas {
     transition: all 0.3s ease;
 }
 
-/upper from this original
+
 
 
 /* Modernized Animations */
