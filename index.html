@@ -7,20 +7,6 @@
     <meta name="description" content="Mohammad Kaif Raja - Designer, and Web3 Enthusiast.">
 
 
-<!--scrol down -->
-       <div className="absolute bottom-8 right-8 flex flex-col items-center gap-3 z-20">
-        {/* Glowing text with gradient */}
-        <div className="relative group">
-          <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-cyan-600 rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
-          <span className="relative px-4 py-2 text-sm font-semibold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent uppercase tracking-widest">
-            Scroll down
-          </span>
-        </div>
-        
-        {/* Animated arrow container with multiple dots */}
-        <div className="flex flex-col items-center gap-2">
-          {/* Primary arrow with glow */}\n          <div className=\"relative w-6 h-10 rounded-full border-2 border-gradient-to-b from-violet-400 to-cyan-400 border-violet-400/40 flex items-start justify-center p-2 backdrop-blur-sm bg-white/5 group hover:border-violet-400/60 transition-all duration-300\">\n            {/* Scrolling dot animation */}\n            <div className=\"w-1.5 h-1.5 rounded-full bg-gradient-to-b from-violet-400 to-cyan-400 animate-bounce\" style={{ animationDuration: '1.5s' }} />\n          </div>\n          \n          {/* Floating arrows below */}\n          <div className=\"flex flex-col items-center gap-1 mt-2\">\n            <svg className=\"w-5 h-5 text-violet-400 animate-bounce\" style={{ animationDelay: '0s', animationDuration: '2s' }} fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth={2.5} d=\"M19 14l-7 7m0 0l-7-7m7 7V3\" />\n            </svg>\n            <svg className=\"w-5 h-5 text-cyan-400 animate-bounce\" style={{ animationDelay: '0.2s', animationDuration: '2s' }} fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth={2.5} d=\"M19 14l-7 7m0 0l-7-7m7 7V3\" />\n            </svg>\n          </div>\n        </div>\n      </div>
- 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -465,6 +451,208 @@
         <p>© 2026 Mohammad Kaif Raja.         All Rights Reserved.</p>
 
     </footer>
+
+
+
+
+<!-- the scroll up -->
+
+                        <!-- Scroll to Top Button -->
+<div id="scroll-to-top" class="scroll-to-top" onclick="scrollToTop()" title="Scroll to Top">
+  <div class="scroll-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </div>
+  <div class="scroll-progress"></div>
+  <div class="scroll-glow"></div>
+</div>
+
+<!-- Scroll Progress Bar (Optional) -->
+<div class="scroll-progress-bar">
+  <div class="scroll-progress-fill" id="scroll-progress-fill"></div>
+</div>
+
+<!-- Required CSS Styles -->
+<style>
+  /* Scroll to Top Button */
+  .scroll-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.8);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4);
+    overflow: hidden;
+  }
+
+  .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+  }
+
+  .scroll-to-top:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.6);
+  }
+
+  .scroll-to-top:active {
+    transform: translateY(-2px) scale(1.05);
+  }
+
+  .scroll-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    animation: bounce 2s infinite;
+  }
+
+  .scroll-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Glow Effect */
+  .scroll-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.6) 0%, transparent 70%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease;
+    z-index: 1;
+  }
+
+  .scroll-to-top:hover .scroll-glow {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+
+  /* Progress Ring */
+  .scroll-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: rgba(255, 255, 255, 0.8);
+    animation: spin 2s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .scroll-to-top:hover .scroll-progress {
+    opacity: 1;
+  }
+
+  /* Scroll Progress Bar (Top of Page) */
+  .scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+  }
+
+  .scroll-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #8b5cf6 0%, #06b6d4 50%, #8b5cf6 100%);
+    transition: width 0.1s ease;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+  }
+
+  /* Animations */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-6px); }
+    60% { transform: translateY(-3px); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Pulse Animation */
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4); }
+    50% { box-shadow: 0 10px 60px rgba(139, 92, 246, 0.8); }
+  }
+
+  .scroll-to-top.visible {
+    animation: pulse-glow 2s infinite;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .scroll-to-top {
+      bottom: 80px;
+      right: 20px;
+      width: 45px;
+      height: 45px;
+    }
+  }
+</style>
+
+<!-- JavaScript Functionality -->
+<script>
+  // Show/Hide Scroll Button
+  function handleScroll() {
+    const scrollBtn = document.getElementById('scroll-to-top');
+    const progressFill = document.getElementById('scroll-progress-fill');
+    
+    // Get scroll position
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    
+    // Show button after scrolling 300px
+    if (scrollTop > 300) {
+      scrollBtn.classList.add('visible');
+    } else {
+      scrollBtn.classList.remove('visible');
+    }
+    
+    // Update progress bar
+    if (progressFill) {
+      progressFill.style.width = scrollPercent + '%';
+    }
+  }
+
+  // Scroll to Top Function
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  // Event Listeners
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('load', handleScroll);
+</script>
 
     <!-- Custom Dot Cursor--> 
     <div id="dot-cursor" class="fixed w-1 h-1 bg-red-200 rounded-full pointer-events-none z-[9999] opacity-0 transition-opacity duration-200"></div>
