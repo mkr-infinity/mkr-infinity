@@ -256,33 +256,6 @@ function initMobileMenu() {
 }
 
 
-// Loading Screen Logic
-function initLoadingScreen() {
-    const loaderContainer = document.getElementById('loader-container');
-    const loadingScreen = document.getElementById('loading-screen');
-    if (!loaderContainer || !loadingScreen) return;
-
-    const loaders = [
-        '<div class="loader-1"><div class="pulse-logo"></div></div>',
-        '<div class="loader-2"><div class="rings"></div></div>',
-        '<div class="loader-3"><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>',
-        '<div class="loader-4"><div class="scan-container"><div class="scan-bar"></div></div></div>'
-    ];
-
-    const randomLoader = loaders[Math.floor(Math.random() * loaders.length)];
-    loaderContainer.innerHTML = randomLoader;
-
-    // Random duration between 2s and 3s
-    const duration = Math.floor(Math.random() * (3000 - 2000 + 1)) + 2000;
-
-    setTimeout(() => {
-        loadingScreen.style.opacity = '0';
-        setTimeout(() => {
-            loadingScreen.style.display = 'none';
-        }, 500);
-    }, duration);
-}
-
 // Dot Cursor
 function initDotCursor() {
     const cursor = document.getElementById('dot-cursor');
