@@ -16,10 +16,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Snake SVG
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: mkr-infinity
-          svg_out_path: dist/snake.svg
+          outputs: dist/snake.svg
 
       - name: Commit and Push Snake
         uses: EndBug/add-and-commit@v9
