@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule: # Runs once a day at midnight UTC
-    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -15,25 +15,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake (default dark)
-        uses: Platane/snk@master
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
         with:
           github_user_name: mkr-infinity
-          outputs: dist/snake.svg
-
-      - name: Generate Snake (rainbow style)
-        uses: Platane/snk@master
-        with:
-          github_user_name: mkr-infinity
-          outputs: dist/snake-rainbow.svg
-          snake_color: rainbow
-
-      - name: Generate Snake (dots style)
-        uses: Platane/snk@master
-        with:
-          github_user_name: mkr-infinity
-          outputs: dist/snake-dots.svg
-          snake_color: dots
+          svg_out_path: dist/snake.svg
 
       - name: Commit and Push Snake
         uses: EndBug/add-and-commit@v9
@@ -41,6 +27,6 @@ jobs:
           author_name: mkr-infinity
           author_email: mohammadkaifraja2@gmail.com
           message: "Generated snake animation"
-          add: "dist/*.svg"
+          add: "dist/snake.svg"
           push: true
-          branch: output
+          new_branch: output
