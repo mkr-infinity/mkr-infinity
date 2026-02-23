@@ -32,16 +32,17 @@
 
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-<br><br>
+<br>
 
 
-| Stats | Profile Details |
-|-------|-----------------|
-| ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=radical) | ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mkr-infinity&theme=radical) |
+<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=GitHub+Overview" alt="Typing SVG" />
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-<br><br>
+| Stats & Streak | Profile Insights |
+|----------------|------------------|
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" alt="Stats" /> <br><img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" alt="Streak" /> | <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mkr-infinity&theme=tokyonight" alt="Profile Details" /> <br><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mkr-infinity&theme=tokyonight&utcOffset=5.5" alt="Productive Time" /> |
 
+
+<br>
 
 
 
