@@ -49,27 +49,23 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
 ![Image](https://github.com/user-attachments/assets/1679d9f8-c877-427d-9969-e44ade67cb41)
 
-## 📬 Connect with Me
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=true&vCenter=true&width=500&lines=Connect+with+me)](https://github.com/mkr-infinity)
+<img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Connect+with+me" alt="Typing SVG" />
 
-<p align="center">
-  <!-- Telegram -->
-  <a href="https://t.me/mkr_infinity">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-  
-  <!-- Instagram -->
-  <a href="https://instagram.com/mkr_infinity">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  
-  <!-- Bondex -->
-  <a href="https://network.bondex.app/p/mkr_infinity">
-    <img src="https://img.shields.io/badge/Bondex-FFD700?style=for-the-badge&logo=bitcoin&logoColor=black" alt="Bondex"/>
-  </a>
-</p>
 
+
+<br clear="both">
+
+<div align="center">
+  <a href="https://www.youtube.com/@mkrinfinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=labze_kaifiyat&color=FF0000&logoColor=red&labelColor=&style=plastic" height="93" alt="youtube logo"  />
+  </a>
+  <a href="https://www.instagram.com/mkr_infinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=mkr_infinity&color=E4405F&logoColor=cyan&labelColor=&style=plastic" height="63" alt="instagram logo"  />
+  </a>
+  <a href="https://t.me/mkr_infinity" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=mkr_infinity&color=2CA5E0&logoColor=&labelColor=&style=plastic" height="73" alt="telegram logo"  />
+  </a>
 
 
 
