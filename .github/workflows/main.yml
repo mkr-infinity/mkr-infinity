@@ -1,7 +1,7 @@
 name: Generate Snake Animation
 
 on:
-  schedule: # Runs once a day at midnight UTC
+  schedule: # Runs once a day at 1 AM UTC
     - cron: "0 1 * * *"
   workflow_dispatch: # Allow manual trigger
 
@@ -22,11 +22,10 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Commit and Push Snake
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: mkr-infinity
-          author_email: mohammadkaifraja2@gmail.com
-          message: "Generated snake animation"
-          add: "dist/snake.svg"
-          push: true
-          new_branch: output
+        run: |
+          git config user.name "mkr-infinity"
+          git config user.email "mohammadkaifraja2@gmail.com"
+          git add dist/snake.svg
+          # Always create a commit, even if file didn't change
+          git commit -m "Update snake animation" || git commit --allow-empty -m "Update snake animation"
+          git push origin HEAD:output --force
