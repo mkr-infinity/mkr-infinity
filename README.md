@@ -49,7 +49,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=Contribution+Snake" alt="Typing SVG" />
 
 <p align="center">
-  <img src="https://github.com/mkr-infinity/mkr-infinity/blob/output/dist/snake.svg" alt="Snake animation" />
+  <img src="https://github.com/mkr-infinity/mkr-infinity/main/dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 
