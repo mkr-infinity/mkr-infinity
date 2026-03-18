@@ -1,6 +1,6 @@
-### 🚀 Live Status
-- Greeting: Hello
-- Last Updated: Never
+## 🚀 Live Status
+Greeting: Hello
+Last Updated: Never
 
 
 
