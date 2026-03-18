@@ -1,0 +1,38 @@
+name: Auto Update README
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update README
+        run: |
+          DATE=$(date +"%Y-%m-%d %H:%M:%S")
+          HOUR=$(date +'%H')
+
+          if [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
+            MSG="🌅 Good Morning"
+          elif [ $HOUR -lt 17 ]; then
+            MSG="☀️ Good Afternoon"
+          else
+            MSG="🌙 Good Evening"
+          fi
+
+          sed -i "s/^Greeting:.*/Greeting: $MSG/" README.md
+          sed -i "s/^Last Updated:.*/Last Updated: $DATE/" README.md
+
+      - name: Commit
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto update README" || echo "No changes"
+          git push
