@@ -9,7 +9,7 @@
 - 🥰 Checkout [My Portfolio](https://mkr-infinity.github.io/)
 - 🤝 How to reach me  [mkr_infinity](https://t.me/mkr_infinity)
 - ⚡ Want me to Work With Your Project, Test any Build, I Will Love to do, so Just Connect With me Along with your Project Link and Details
- [Here](https://github.com/mkr-infinity/mkr-infinity/blob/main/README.md#connect-with-me)
+ [Here](https://t.me/mkr_infinity)
 
 <br><br>
 
