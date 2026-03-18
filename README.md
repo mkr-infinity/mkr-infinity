@@ -1,9 +1,7 @@
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2139188b-cc0e-4ba4-bb65-15b9e7d4a310" width="700"/>
-</p>
+### 🚀 Live Status
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+- Greeting: Loading...  
+- Last Updated: Never
 
 
 
