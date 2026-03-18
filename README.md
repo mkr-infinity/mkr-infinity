@@ -1,8 +1,7 @@
-## 🚀 Live Status
-Greeting: 🌙 Good Evening
-Last Updated: 2026-03-18 18:58:31
-
-
+<p align="center">
+  Hi 👋 there, Loading...<br>
+  Last Updated: Never
+</p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
 
