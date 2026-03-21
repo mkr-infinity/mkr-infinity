@@ -1,6 +1,6 @@
 <p align="center">
-  Hi 👋 there, Good Evening<br>
-  Last Updated: 20-03-2026 18:22 IST
+  Hi 👋 there, Good Morning<br>
+  Last Updated: 21-03-2026 07:13 IST
 </p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira&size=35&duration=300&pause=3000&color=678CAD&center=false&vCenter=false&width=500&lines=About+Me" alt="Typing SVG" />
