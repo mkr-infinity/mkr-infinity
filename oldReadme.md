@@ -169,70 +169,40 @@ Versioning  : Git (GitHub workflow)
 Principles  : Performance • Clean Code • Maintainability
 ```
 
----
-
-## 💼 Work With Me
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to%20Work-0A0A0A?style=for-the-badge&logo=freelancer&logoColor=38BDF8"/>
-</p>
-
-<p align="center">
-  <i>"I focus on building systems that are efficient, scalable, and genuinely useful."</i>
-</p>
-
-<p align="center">
-  <a href="https://t.me/mkr_infinity">
-    <img src="https://img.shields.io/badge/Let's%20Collaborate-0A0A0A?style=for-the-badge&logo=telegram&logoColor=38BDF8"/>
-  </a>
-</p>
 
 ---
-
 ## 💰 Support
 
 <p align="center">
-  <a href="https://buymeacoffee.com/mkr_infinity">
-    <img src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
-  </a>
+  <i>"If you find value in my work, your support helps me build more tools that benefit everyone."</i>
 </p>
 
 <p align="center">
   <a href="https://supportmkr.netlify.app/">
-    <img src="https://img.shields.io/badge/Visit%20Support%20Page-0A0A0A?style=for-the-badge&logo=netlify&logoColor=38BDF8"/>
+    <img src="https://img.shields.io/badge/Explore%20More%20Ways%20to%20Support-0A0A0A?style=for-the-badge&logo=buymeacoffee&logoColor=38BDF8"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://buymeacoffee.com/mkr_infinity">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000"/>
   </a>
 </p>
 
+### 💳 Crypto Support
+
+|      Name      |                                    Icon                                    |                   Wallet Address                   |
+| :------------: | :------------------------------------------------------------------------: | :------------------------------------------------: |
+|    TON (TON)   |  <img src="https://cryptologos.cc/logos/toncoin-ton-logo.png" width="28"/> | `UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1` |
+| Ethereum (ETH) | <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" width="28"/> |    `0x56dC57B9D03C6b947e49a28edC7e18FBe383365a`    |
+|  Solana (SOL)  |  <img src="https://cryptologos.cc/logos/solana-sol-logo.png" width="28"/>  |   `9JEjaDCfe9esp6ECpyww7Gm3NUcieiy7hMU1pKMQVWxP`   |
+
+
+<p align="center">
+  <sub>Secure • Direct • Transparent</sub>
+</p>
 
 ---
 
-###  TON
 
-<img src="https://cryptologos.cc/logos/toncoin-ton-logo.png" width="28"/>
-
-```bash id="unique03"
-UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1
-```
-<br>
-
-###  Ethereum
-
-<img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" width="28"/>
-
-```
-0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
-```
-<br>
-
-###  Solana
-
-<img src="https://cryptologos.cc/logos/solana-sol-logo.png" width="28"/>
-
-```
-9JEjaDCfe9esp6ECpyww77Gm3NUcieiy7hMU1pKMQVWxP
-```
-
----
 
 <p align="center">
   <img src="https://count.getloli.com/get/@mkr-infinity?theme=rule34" />
