@@ -1,41 +1,49 @@
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:0EA5E9&height=260&section=header&text=Mohammad%20Kaif%20Raja&fontSize=44&fontColor=FFFFFF&animation=fadeIn&desc=@mkr-infinity%20/%20@mkr_infinity&descAlignY=65&descAlign=50&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ddccfe,100:0464cd&height=210&section=header&text=Mohammad%20Kaif%20Raja&fontSize=44&fontColor=86ddf3&animation=fadeIn&desc=@mkr-infinity%20/%20@mkr_infinity&descAlignY=65&descAlign=50&descSize=18&descColor=c22e1d"/>
 </p>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=FFD700&center=true&vCenter=true&width=650&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Focused+Builder;FOSS+Project+Dev;Vibe+Coder" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=FFD800&center=true&vCenter=true&width=650&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Focused+Builder;FOSS+Project+Dev;Vibe+Coder" />
 </p>
 
-
-
----
 
 ## 🧠 About Me
+```
+const mkrInfinity = {
+  identity: {
+    name: "Mohammad Kaif Raja",
+    alias: "mkr-infinity",
+    handle: "@mkr-infinity/@mkr_infinity",
+    role: "Open Source Builder, Vibe Coder & System Optimizer"
+  },
 
-```bash id="unique01"
-> whoami
+  focus: {
+    primary: ["Developer Tools", "Open Source", "Performance"],
+    mindset: ["Minimalism", "Efficiency", "Real-world utility"]
+  },
 
-Mohammad Kaif Raja (mkr-infinity/mkr_infinity)
+  stack: {
+    frontend: ["HTML", "CSS", "JavaScript", "React"],
+    backend: ["Firebase"],
+    system: ["Linux", "Bash", "CLI"]
+  },
 
-> role
-Builder
+  expertise: [
+    "System Optimization",
+    "Android Tweaking",
+    "Performance Tuning",
+    "Open Source Project Building",
+    "Tool Building"
+  ],
 
-> focus
-Performance • Privacy • Real-world Systems
-
-> expertise
-System Optimization • Web Applications • Android Tweaks
-
-> environment
-Linux • Terminal-first workflow
-
-> philosophy
-Build minimal. Build scalable. Build useful.
+  philosophy: "Build clean. Build fast. Build what matters.",
+  status: "Learning & improving 🚀"
+};
 ```
 
 ---
-
 
 ## 🌐 Connect
 
@@ -82,21 +90,25 @@ Build minimal. Build scalable. Build useful.
 
 
 
-
 ---
 
-
-
-
-
-
----
 
 ## ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,js,react,firebase,html,css,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,js,react,firebase,html,css,git,github" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android%20Modding-000000?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ROM%20Flashing-000000?style=for-the-badge"/>
+   <img src="https://img.shields.io/badge/Vibe%20Coder-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/System%20Optimization-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Linux%20Tweaking-000000?style=for-the-badge&logo=linux"/>
+</p>
+
+
+
 
 ---
 
