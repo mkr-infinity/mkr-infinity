@@ -1,7 +1,8 @@
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ddccfe,100:0464cd&height=210&section=header&text=Mohammad%20Kaif%20Raja&fontSize=44&fontColor=86ddf3&animation=fadeIn&desc=@mkr-infinity%20/%20@mkr_infinity&descAlignY=65&descAlign=50&descSize=18&descColor=c22e1d"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ddccfe,100:0464cd&height=210&section=header&text=Mohammad%20Kaif%20Raja&fontSize=44&fontColor=86ddf3&fontAlignY=36&animation=fadeIn&desc=@mkr-infinity%20/%20@mkr_infinity&descAlignY=52&descAlign=50&descSize=18&descColor=c22e1d"/>
 </p>
+
+
 
 
 <p align="center">
