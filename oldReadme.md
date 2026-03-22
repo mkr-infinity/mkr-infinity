@@ -89,6 +89,14 @@ const mkrInfinity = {
 </p>
 
 
+---
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
 
 
 ---
