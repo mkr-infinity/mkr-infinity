@@ -1,1 +1,231 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:0EA5E9&height=260&section=header&text=Mohammad%20Kaif%20Raja&fontSize=44&fontColor=FFFFFF&animation=fadeIn&desc=@mkr-infinity%20/%20@mkr_infinity&descAlignY=65&descAlign=50&descSize=18"/>
+</p>
 
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=FFD700&center=true&vCenter=true&width=650&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Focused+Builder;FOSS+Project+Dev;Vibe+Coder" />
+</p>
+
+
+
+---
+
+## 🧠 About Me
+
+```bash id="unique01"
+> whoami
+
+Mohammad Kaif Raja (mkr-infinity/mkr_infinity)
+
+> role
+Builder
+
+> focus
+Performance • Privacy • Real-world Systems
+
+> expertise
+System Optimization • Web Applications • Android Tweaks
+
+> environment
+Linux • Terminal-first workflow
+
+> philosophy
+Build minimal. Build scalable. Build useful.
+```
+
+---
+
+
+## 🌐 Connect
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Let's+Connect+%26+Collaborate" />
+</p>
+
+<!-- 🔥 MAIN CTA -->
+
+<p align="center">
+  <a href="https://t.me/mkr_infinity">
+    <img src="https://img.shields.io/badge/💬%20Connect%20with%20Me%20on%20Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white"/>
+  </a>
+</p>
+
+<!-- Secondary -->
+
+<p align="center">
+  <a href="https://mkr-infinity.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://supportmkr.netlify.app/">
+    <img src="https://img.shields.io/badge/Support%20Page-FFD700?style=for-the-badge&logo=buymeacoffee&logoColor=000000"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://buymeacoffee.com/mkr_infinity">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000"/>
+  </a>
+</p>
+
+<!-- Social -->
+
+<p align="center">
+  <a href="https://instagram.com/mkr_infinity">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://network.bondex.app/p/mkr_infinity">
+    <img src="https://img.shields.io/badge/Bondex-111827?style=for-the-badge&logo=bitcoin&logoColor=FFD700"/>
+  </a>
+</p>
+
+
+
+
+
+---
+
+
+
+
+
+
+---
+
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,bash,js,react,firebase,html,css,git,github,vscode" />
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+## 🧠 Revision Master
+
+<p align="center">
+  <a href="https://github.com/mkr-infinity/Revision-Master">
+    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20REVISION%20MASTER-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
+  </a>
+</p>
+
+* Distraction-free revision system
+* Local-first (privacy-focused)
+* Fast and minimal UI
+
+---
+
+## 🧵 Tailor Management System
+
+<p align="center">
+  <a href="https://github.com/mkr-infinity/tailor-system">
+    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20TAILOR%20SYSTEM-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
+  </a>
+</p>
+
+* Designed for real-world workflows
+* Clean and efficient interface
+* Customer & order management
+
+---
+
+## 🧮 Matrix Calculator
+
+<p align="center">
+  <a href="https://github.com/mkr-infinity">
+    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20MATRIX%20CALCULATOR-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
+  </a>
+</p>
+
+* Matrix operations & computations
+* CLI-focused usage
+* Lightweight and fast
+
+---
+
+## 🛠 Development Environment
+
+```bash id="unique02"
+OS          : Linux
+Shell       : Bash / Zsh
+Editor      : Terminal + VS Code
+
+Stack       : JavaScript • React • Firebase
+Versioning  : Git (GitHub workflow)
+
+Principles  : Performance • Clean Code • Maintainability
+```
+
+---
+
+## 💼 Work With Me
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to%20Work-0A0A0A?style=for-the-badge&logo=freelancer&logoColor=38BDF8"/>
+</p>
+
+<p align="center">
+  <i>"I focus on building systems that are efficient, scalable, and genuinely useful."</i>
+</p>
+
+<p align="center">
+  <a href="https://t.me/mkr_infinity">
+    <img src="https://img.shields.io/badge/Let's%20Collaborate-0A0A0A?style=for-the-badge&logo=telegram&logoColor=38BDF8"/>
+  </a>
+</p>
+
+---
+
+## 💰 Support
+
+<p align="center">
+  <a href="https://buymeacoffee.com/mkr_infinity">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://supportmkr.netlify.app/">
+    <img src="https://img.shields.io/badge/Visit%20Support%20Page-0A0A0A?style=for-the-badge&logo=netlify&logoColor=38BDF8"/>
+  </a>
+</p>
+
+
+---
+
+###  TON
+
+<img src="https://cryptologos.cc/logos/toncoin-ton-logo.png" width="28"/>
+
+```bash id="unique03"
+UQDTX8QV6csepk9U1-dGzhoPfE4MUZTzAjjVE6YVIKVWuVj1
+```
+<br>
+
+###  Ethereum
+
+<img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" width="28"/>
+
+```
+0x56dC57B9D03C6b947e49a28edC7e18FBe383365a
+```
+<br>
+
+###  Solana
+
+<img src="https://cryptologos.cc/logos/solana-sol-logo.png" width="28"/>
+
+```
+9JEjaDCfe9esp6ECpyww77Gm3NUcieiy7hMU1pKMQVWxP
+```
+
+---
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@mkr-infinity?theme=rule34" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:1E3A8A&height=150&section=footer"/>
+</p>
