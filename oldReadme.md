@@ -125,9 +125,9 @@ const mkrInfinity = {
 
 | Name                                                                                                                                                                                            | Description                                                               |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| <a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/🧠%20Revision%20Master-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>          | Distraction-free, privacy-first revision tool built for speed and focus.  |
-| <a href="https://github.com/mkr-infinity/tailor-system"><img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a> | Efficient system for managing tailoring workflows, orders, and customers. |
-| <a href="https://github.com/mkr-infinity"><img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>                        | Lightweight CLI-based tool for fast matrix computations and operations.   |
+| <a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/🧠%20Revision%20Master-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>          | Distraction-free, revision tool with AI and cards style & many more...  |
+| <a href="https://github.com/mkr-infinity/tailor-system"><img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a> | System for managing tailoring workflows, data sync, measurements... |
+| <a href="https://github.com/mkr-infinity"><img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>                        | Fast, fully offline, matrix calculator, step-by-step solutions, clean Material UI.  |
 
 
 
