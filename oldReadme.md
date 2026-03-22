@@ -90,16 +90,7 @@ const mkrInfinity = {
 
 
 ---
-## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
-
-
----
 
 
 ## ⚙️ Tech Stack
@@ -133,6 +124,22 @@ const mkrInfinity = {
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+
+
+
+---
+
 ## 💰 Support
 
 <p align="center">
@@ -149,7 +156,7 @@ const mkrInfinity = {
   </a>
 </p>
 
-### 💳 Crypto Support
+### Decentralized Support
 
 |      Name      |                                    Icon                                    |                   Wallet Address                   |
 | :------------: | :------------------------------------------------------------------------: | :------------------------------------------------: |
@@ -170,6 +177,11 @@ const mkrInfinity = {
 
 <p align="center">
   <img src="https://count.getloli.com/get/@mkr-infinity?theme=rule34" />
+</p>
+
+<p align="center">
+  Hi 👋 there, Good Evening<br>
+  Last Updated: 22-03-2026 18:12 IST
 </p>
 
 <p align="center">
