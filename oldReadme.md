@@ -102,8 +102,8 @@ const mkrInfinity = {
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android%20Modding-000000?style=for-the-badge&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ROM%20Flashing-000000?style=for-the-badge"/>
-   <img src="https://img.shields.io/badge/Vibe%20Coder-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OS%20Flashing-000000?style=for-the-badge"/>
+   <img src="https://img.shields.io/badge/Vibe%20Coding-000000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/System%20Optimization-000000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Linux%20Tweaking-000000?style=for-the-badge&logo=linux"/>
 </p>
@@ -113,65 +113,18 @@ const mkrInfinity = {
 
 ---
 
-# 🚀 Featured Projects
+## 🔥 Featured Projects
 
-## 🧠 Revision Master
+| Name                                                                                                                                                                                            | Description                                                               |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| <a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/🧠%20Revision%20Master-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>          | Distraction-free, privacy-first revision tool built for speed and focus.  |
+| <a href="https://github.com/mkr-infinity/tailor-system"><img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a> | Efficient system for managing tailoring workflows, orders, and customers. |
+| <a href="https://github.com/mkr-infinity"><img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>                        | Lightweight CLI-based tool for fast matrix computations and operations.   |
 
-<p align="center">
-  <a href="https://github.com/mkr-infinity/Revision-Master">
-    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20REVISION%20MASTER-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
-  </a>
-</p>
 
-* Distraction-free revision system
-* Local-first (privacy-focused)
-* Fast and minimal UI
 
 ---
 
-## 🧵 Tailor Management System
-
-<p align="center">
-  <a href="https://github.com/mkr-infinity/tailor-system">
-    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20TAILOR%20SYSTEM-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
-  </a>
-</p>
-
-* Designed for real-world workflows
-* Clean and efficient interface
-* Customer & order management
-
----
-
-## 🧮 Matrix Calculator
-
-<p align="center">
-  <a href="https://github.com/mkr-infinity">
-    <img src="https://img.shields.io/badge/🚀%20VIEW%20PROJECT%20—%20MATRIX%20CALCULATOR-0A0A0A?style=for-the-badge&logo=github&logoColor=38BDF8"/>
-  </a>
-</p>
-
-* Matrix operations & computations
-* CLI-focused usage
-* Lightweight and fast
-
----
-
-## 🛠 Development Environment
-
-```bash id="unique02"
-OS          : Linux
-Shell       : Bash / Zsh
-Editor      : Terminal + VS Code
-
-Stack       : JavaScript • React • Firebase
-Versioning  : Git (GitHub workflow)
-
-Principles  : Performance • Clean Code • Maintainability
-```
-
-
----
 ## 💰 Support
 
 <p align="center">
@@ -201,7 +154,9 @@ Principles  : Performance • Clean Code • Maintainability
   <sub>Secure • Direct • Transparent</sub>
 </p>
 
----
+
+<br><br>
+
 
 
 
