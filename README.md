@@ -125,17 +125,26 @@ const mkrInfinity = {
 ---
 
 ## 📊 GitHub Stats
+<details>
+  <summary> 👆 Tap to Show GitHub Activity</summary>
+  
+<a href="https://github.com/mkr-infinity">
+  <img alt="Kaif's Github Stats"
+       src="https://github-readme-stats.vercel.app/api?username=mkr-infinity&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866"
+       height="192px"/>
+</a>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" height="170"/>
-</p>
+<a href="https://github.com/mkr-infinity">
+  <img alt="Kaif's Streak Stats"
+       src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=react&hide_border=true&background=1F222E&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F"
+       height="192px"/>
+</a>
 
 <p align="center">
   <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
-
+</details>
 
 
 ---
