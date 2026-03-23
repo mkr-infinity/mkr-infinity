@@ -204,10 +204,6 @@ Fast offline matrix calculator with step-by-step solutions and clean Material UI
   <img src="https://count.getloli.com/get/@mkr-infinity?theme=rule34" />
 </p>
 
-<p align="center">
-  Hi 👋 there, Good Evening<br>
-  Last Updated: 23-03-2026 18:28 IST
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:1E3A8A&height=150&section=footer"/>
