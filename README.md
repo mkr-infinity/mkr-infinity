@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=FFD800&center=true&vCenter=true&width=650&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Focused+Builder;FOSS+Project+Dev;Vibe+Coder" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=2500&pause=1000&color=FFD800&center=true&vCenter=true&width=550&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Tools+Builder;FOSS+Project+Dev;Vibe+Coder" />
 </p>
 
 
@@ -18,17 +18,6 @@ const mkrInfinity = {
     alias: "mkr-infinity",
     handle: "@mkr-infinity/@mkr_infinity",
     role: "Open Source Builder, Vibe Coder & System Optimizer"
-  },
-
-  focus: {
-    primary: ["Developer Tools", "Open Source", "Performance"],
-    mindset: ["Minimalism", "Efficiency", "Real-world utility"]
-  },
-
-  stack: {
-    frontend: ["HTML", "CSS", "JavaScript", "React"],
-    backend: ["Firebase"],
-    system: ["Linux", "Bash", "CLI"]
   },
 
   expertise: [
@@ -49,7 +38,7 @@ const mkrInfinity = {
 ## 🌐 Connect
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Let's+Connect+%26+Collaborate" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=29&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Let's+Connect+%26+Collaborate" />
 </p>
 
 <!-- 🔥 MAIN CTA -->
@@ -119,7 +108,6 @@ const mkrInfinity = {
 | <a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/🧠%20Revision%20Master-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>          | Distraction-free, revision tool with AI and cards style & many more...  |
 | <a href="https://github.com/mkr-infinity/tailor-system"><img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a> | System for managing tailoring workflows, data sync, measurements... |
 | <a href="https://github.com/mkr-infinity"><img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>                        | Fast, fully offline, matrix calculator, step-by-step solutions, clean Material UI.  |
-
 
 
 ---
