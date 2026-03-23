@@ -101,13 +101,41 @@ const mkrInfinity = {
 
 ---
 
+
+
 ## 🔥 Featured Projects
 
-| Name                                                                                                                                                                                            | Description                                                               |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| <a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/🧠%20Revision%20Master-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>          | Distraction-free, revision tool with AI and cards style & many more...  |
-| <a href="https://github.com/mkr-infinity/tailor-system"><img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a> | System for managing tailoring workflows, data sync, measurements... |
-| <a href="https://github.com/mkr-infinity"><img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-000000?style=for-the-badge&logo=github&logoColor=38BDF8"/></a>                        | Fast, fully offline, matrix calculator, step-by-step solutions, clean Material UI.  |
+<div align="center">
+
+<a href="https://github.com/mkr-infinity/Revision-Master">
+  <img src="https://img.shields.io/badge/🧠%20Revision%20Master-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
+</a>
+
+<p>
+Distraction-free, AI-powered revision tool with clean cards UI and focus mode.
+</p>
+
+<br>
+
+<a href="https://github.com/mkr-infinity/tailor-system">
+  <img src="https://img.shields.io/badge/🧵%20Tailor%20Management%20System-334155?style=for-the-badge&logo=github&logoColor=22C55E&labelColor=1E293B"/>
+</a>
+
+<p>
+Smart tailoring workflow manager with measurements, syncing, and business tools.
+</p>
+
+<br>
+
+<a href="https://github.com/mkr-infinity">
+  <img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-334155?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=1E293B"/>
+</a>
+
+<p>
+Fast offline matrix calculator with step-by-step solutions and clean Material UI.
+</p>
+
+</div>
 
 
 ---
