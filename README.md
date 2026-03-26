@@ -137,9 +137,14 @@ Fast offline matrix calculator with step-by-step solutions and clean Material UI
 
 <br>
 
-<a href="https://bootloader-unlock.vercel.app/">
-  <img src="https://img.shields.io/badge/🔓%20Bootloader%20Unlock-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
+<a href="https://github.com/mkr-infinity/Guide-to-unlock-Bootloader">
+  <img src="https://img.shields.io/badge/🔓%20Bootloader%20Unlock%20Repo-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
 </a>
+
+<a href="https://bootloader-unlock.vercel.app/">
+  <img src="https://img.shields.io/badge/🔓%20Bootloader%20Unlock%20Website-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
+</a>
+
 
 <p>
 Beginner level detailed guide to unlock 🔓 bootloader on android devices everything explained clearly.
