@@ -151,7 +151,21 @@ Beginner level detailed guide to unlock 🔓 bootloader on android devices every
   
 </p>
 
+<br>
 
+<a href="https://github.com/mkr-infinity/Guide-for-flashing-GSI-to-any-device">
+  <img src="https://img.shields.io/badge/📱%20GSI%20Flashing%20Repo-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
+</a>
+
+<a href="http://mkr-infinity.github.io/Guide-for-flashing-GSI-to-any-device/">
+  <img src="https://img.shields.io/badge/📱%20GSI%20Flashing%20Website-334155?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=1E293B"/>
+</a>
+
+
+<p>
+  An easy tutorial 📘 to help you flash a GSI on your Android phone 📱 without confusion.
+  
+</p>
 </div>
 
 
