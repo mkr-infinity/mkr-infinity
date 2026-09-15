@@ -12,25 +12,23 @@
 
 ## 🧠 About Me
 ```
-const mkrInfinity = {
-  identity: {
-    name: "Mohammad Kaif Raja",
-    alias: "mkr-infinity",
-    handle: "@mkr-infinity/@mkr_infinity",
-    role: "Open Source Builder, Vibe Coder & System Optimizer"
-  },
+mkrInfinity = {
+    "identity": {
+        "name": "Mohammad Kaif Raja",
+        "alias": "mkr-infinity",
+        "handle": "@mkr-infinity/@mkr_infinity",
+        "role": "Open Source Builder, Vibe Coder & System Optimizer"
+    },
 
-  expertise: [
-    "System Optimization",
-    "Android Tweaking",
-    "Performance Tuning",
-    "Open Source Project Building",
-    "Tool Building"
-  ],
+    "expertise": [
+        "Self Learning",
+        "Android/Linux/Windows Tweaking/Breaking",
+        "FOSS/Open-Source Tools/Projects Building/Breaking",
+        "No-Code Tool Building"
+    ],
 
-  philosophy: "Build clean. Build fast. Build what matters.",
-  status: "Learning & improving 🚀"
-};
+    "tagline": "Crafted by curiosity, perfected by persistence."
+}
 ```
 
 ---
