@@ -127,12 +127,18 @@ Smart tailoring workflow manager with measurements, syncing, and business tools.
 
 <br>
 
-<a href="https://github.com/mkr-infinity/Matrix_Calculator">
-  <img src="https://img.shields.io/badge/🧮%20Matrix%20Calculator-334155?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=1E293B"/>
+<a href="https://github.com/mkr-infinity/CalcVerse">
+  <img src="https://img.shields.io/badge/🧮%20Calc%20Verse%20Repo-334155?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=1E293B"/>
 </a>
 
+
+<a href="http://mkr-infinity.github.io/CalcVerse/">
+  <img src="https://img.shields.io/badge/📱%20Calc%20Verse%20Website-334155?style=for-the-badge&logo=github&logoColor=30BDA8&labelColor=1E293B"/>
+</a>
+
+
 <p>
-Fast offline matrix calculator with step-by-step solutions and clean Material UI.
+A modern mathematics toolkit bringing all types of calculations in one place with clean UI.
 </p>
 
 <br>
