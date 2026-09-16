@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=2500&pause=1000&color=FFD800&center=true&vCenter=true&width=550&lines=Tech+Enthusiast;System+Optimizer;Android+Tweaker;Linux+Enthusiast;Open+Source+Contributor;Performance+Tools+Builder;FOSS+Project+Dev;Vibe+Coder" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=2500&pause=1000&color=FFD800&center=true&vCenter=true&width=550&lines=Tech+Enthusiast;System+Builder;Android/Linux+Tweaker;Open+Source+Contributor;Performance+Tools+Builder;FOSS+Projects+Crafter;No-Code+Tool+Crafter" />
 </p>
 
 
@@ -36,14 +36,14 @@ mkrInfinity = {
 ## 🌐 Connect
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=29&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Let's+Connect+%26+Collaborate" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=29&duration=2500&pause=2000&color=38BDF8&center=true&vCenter=true&width=500&lines=Let's+Connect+%26+Collaborate" />
 </p>
 
 <!-- 🔥 MAIN CTA -->
 
 <p align="center">
   <a href="https://t.me/mkr_infinity">
-    <img src="https://img.shields.io/badge/💬%20Connect%20with%20Me%20on%20Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/💬%20Connect%20with%20me%20on%20Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 </p>
 
@@ -178,18 +178,9 @@ Beginner level detailed guide to unlock 🔓 bootloader on android devices every
 ## 📊 GitHub Stats
 <details>
   <summary> 👆 Tap to Show GitHub Activity</summary>
-  
-<a href="https://github.com/mkr-infinity">
-  <img alt="Kaif's Github Stats"
-       src="https://github-readme-stats.vercel.app/api?username=mkr-infinity&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866"
-       height="192px"/>
-</a>
 
-<a href="https://github.com/mkr-infinity">
-  <img alt="Kaif's Streak Stats"
-       src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=react&hide_border=true&background=1F222E&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F"
-       height="192px"/>
-</a>
+
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/mkr-infinity?cardType=level&theme=highcontrast&fontFamily=42dot%20Sans&preferLogin=false)](https://git.io/awesome-stats-card)
 
 <p align="center">
   <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
