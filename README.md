@@ -99,155 +99,128 @@ mkrInfinity = {
 
 ## 🟡 Projects & Creations
 
+<div align="center">
+
+### `Useful Projects` — Built with curiosity. Shared with everyone.
+
+*Open-source apps, developer utilities, and experiments made to solve real problems.*
+
+
+</div>
+
 <details>
-<summary><strong>🚀 Explore My Projects</strong>　·　⭐ Featured Apps　·　📂 Guides & More　 ⌄</summary>
+ <summary><strong>👇 CLICK HERE TO EXPLORE MY PROJECTS</strong>　│　⭐ Featured Apps　│　🧰 Tools & Guides</summary>
+<br/>
 
 <div align="center">
 
-### ✨ Featured Projects
 
-*Handcrafted tools, apps, and resources from my open-source journey.*
 
-<a href="https://github.com/mkr-infinity/mkr-music">
-  <img src="https://img.shields.io/badge/🎧%20MKR%20Music-F59E0B?style=for-the-badge&logo=github&logoColor=18181B&labelColor=F59E0B" alt="MKR Music"/>
-</a>
+## FEATURED BUILDS
 
-<p>
-Free, open-source music app built to bring music sources together in one place.
-</p>
+<sub>Three projects. Three different ideas. One open-source journey.</sub>
 
-<a href="https://github.com/mkr-infinity/mkr-music">
-  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View MKR Music repository"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/mkr-infinity/Revision-Master">
-  <img src="https://img.shields.io/badge/🧠%20Revision%20Master-EAB308?style=for-the-badge&logo=github&logoColor=18181B&labelColor=EAB308" alt="Revision Master"/>
-</a>
-
-<p>
-A distraction-free revision tool with a clean cards UI and focus mode.
-</p>
-
-<a href="https://github.com/mkr-infinity/Revision-Master">
-  <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-18181B?style=for-the-badge&logo=github&logoColor=EAB308" alt="View Revision Master repository"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/mkr-infinity?tab=repositories">
-  <img src="https://img.shields.io/badge/📱%20Android%20Command%20Cheatsheet-F97316?style=for-the-badge&logo=github&logoColor=18181B&labelColor=F97316" alt="Android Command Cheatsheet"/>
-</a>
-
-<p>
-A quick reference for Android commands and useful device-development workflows.
-</p>
-
-<a href="https://github.com/mkr-infinity?tab=repositories">
-  <img src="https://img.shields.io/badge/FIND%20REPOSITORY-18181B?style=for-the-badge&logo=github&logoColor=F97316" alt="Find Android Command Cheatsheet repository"/>
-</a>
+<br/>
 
 </div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🎧 <a href="https://github.com/mkr-infinity/mkr-music">MKR Music ↗</a></h3>
+
+<sub>01 — MUSIC · ANDROID</sub>
+
+**Your music. Your way.**
+
+An open-source music player bringing multiple music sources together in one place, designed for a clean, ad-free listening experience.
+
+<br/>
+
+<a href="https://github.com/mkr-infinity/mkr-music"><img src="https://img.shields.io/badge/⌘%20EXPLORE%20PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=18181B" alt="Explore MKR Music"/></a>
+
+<a href="https://github.com/mkr-infinity/mkr-music/stargazers"><img src="https://img.shields.io/badge/★%20GIVE%20A%20STAR-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="Star MKR Music"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🧠 <a href="https://github.com/mkr-infinity/Revision-Master">Revision Master ↗</a></h3>
+
+<sub>02 — LEARNING · PRODUCTIVITY</sub>
+
+**Make every revision count.**
+
+A focused study companion built to turn revision into structured practice with flashcards, mock tests, and tools that help you stay on track.
+
+<br/>
+
+<a href="https://github.com/mkr-infinity/Revision-Master"><img src="https://img.shields.io/badge/⌘%20EXPLORE%20PROJECT-EAB308?style=for-the-badge&logo=github&logoColor=18181B" alt="Explore Revision Master"/></a>
+
+<a href="https://github.com/mkr-infinity/Revision-Master/stargazers"><img src="https://img.shields.io/badge/★%20GIVE%20A%20STAR-18181B?style=for-the-badge&logo=github&logoColor=EAB308" alt="Star Revision Master"/></a>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<h3>📱 <a href="https://github.com/mkr-infinity/android-command-cheatsheet">Android Command Cheatsheet ↗</a></h3>
+
+<sub>03 — ANDROID · DEVELOPER TOOLKIT</sub>
+
+**Less searching. More doing.**
+
+A practical reference for ADB, Fastboot, and Android device-development workflows — made for curious Android enthusiasts and developers.
+
+<div align="center">
+
+<a href="https://github.com/mkr-infinity/android-command-cheatsheet"><img src="https://img.shields.io/badge/⌘%20EXPLORE%20PROJECT-F97316?style=for-the-badge&logo=github&logoColor=18181B" alt="Explore Android Command Cheatsheet"/></a>
+<a href="https://mkr-infinity.github.io/android-command-cheatsheet/"><img src="https://img.shields.io/badge/↗%20TRY%20LIVE%20TOOL-18181B?style=for-the-badge&logoColor=F97316" alt="Try Android Command Cheatsheet"/></a>
+
+</div>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 📂 Other Projects
+<div align="center">
 
-<details>
-<summary><strong>🧮 CalcVerse</strong> — Mathematics Toolkit</summary>
+## THE TOOLBOX
 
-A modern mathematics toolkit bringing different calculations together in one place.
+<sub>More things from the workbench — explore, experiment, and build.</sub>
 
-<a href="https://github.com/mkr-infinity/CalcVerse">
-  <img src="https://img.shields.io/badge/⌘%20SOURCE%20CODE-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="CalcVerse repository"/>
-</a>
-<a href="https://mkr-infinity.github.io/CalcVerse/">
-  <img src="https://img.shields.io/badge/↗%20LIVE%20WEBSITE-F59E0B?style=for-the-badge&logoColor=18181B" alt="CalcVerse website"/>
-</a>
+</div>
 
-</details>
-
-<details>
-<summary><strong>🔓 Android Bootloader Unlock Guide</strong></summary>
-
-A beginner-friendly guide explaining Android bootloader unlocking.
-
-<a href="https://github.com/mkr-infinity/Guide-to-unlock-Bootloader">
-  <img src="https://img.shields.io/badge/⌘%20REPOSITORY-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="Bootloader guide repository"/>
-</a>
-<a href="https://bootloader-unlock.vercel.app/">
-  <img src="https://img.shields.io/badge/↗%20LIVE%20GUIDE-F59E0B?style=for-the-badge" alt="Bootloader guide website"/>
-</a>
-
-</details>
-
-<details>
-<summary><strong>📲 GSI Flashing Guide</strong></summary>
-
-A step-by-step guide to flashing Generic System Images on Android devices.
-
-<a href="https://github.com/mkr-infinity/Guide-for-flashing-GSI-to-any-device">
-  <img src="https://img.shields.io/badge/⌘%20REPOSITORY-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="GSI guide repository"/>
-</a>
-<a href="https://mkr-infinity.github.io/Guide-for-flashing-GSI-to-any-device/">
-  <img src="https://img.shields.io/badge/↗%20LIVE%20GUIDE-F59E0B?style=for-the-badge" alt="GSI guide website"/>
-</a>
-
-</details>
-
-<details>
-<summary><strong>🧵 Tailor Management System</strong> — Business Tool</summary>
-
-A tailoring workflow manager for customer measurements and business operations.
-
-<a href="https://github.com/mkr-infinity/tailor-system">
-  <img src="https://img.shields.io/badge/⌘%20SOURCE%20CODE-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="Tailor System repository"/>
-</a>
-<a href="https://tailorsystem.netlify.app/">
-  <img src="https://img.shields.io/badge/↗%20LIVE%20DEMO-F59E0B?style=for-the-badge" alt="Tailor System demo"/>
-</a>
-
-</details>
+| Project | What you'll find | Explore |
+|:--|:--|:--:|
+| 📘 **ReadmeHub** | Create polished GitHub project and profile READMEs | [**Open ↗**](https://mkr-infinity.github.io/readme-hub/) · [Repo](https://github.com/mkr-infinity/readme-hub) |
+| 🧮 **CalcVerse** | A collection of calculation, graphing, matrix, and conversion tools | [**Open ↗**](https://mkr-infinity.github.io/CalcVerse/) · [Repo](https://github.com/mkr-infinity/CalcVerse) |
+| 🧵 **Tailor Management System** | Manage tailoring customers, measurements, orders, and billing | [**Live Demo ↗**](https://tailorsystem.netlify.app/) · [Repo](https://github.com/mkr-infinity/tailor-system) |
+| 🔓 **Bootloader Unlock Guide** | Resources for understanding Android bootloader unlocking | [**Open Guide ↗**](https://bootloader-unlock.vercel.app/) · [Repo](https://github.com/mkr-infinity/Guide-to-unlock-Bootloader) |
+| ⚙️ **GSI Flashing Guide** | A guide to flashing Generic System Images on Android devices | [**Open Guide ↗**](https://mkr-infinity.github.io/Guide-for-flashing-GSI-to-any-device/) · [Repo](https://github.com/mkr-infinity/Guide-for-flashing-GSI-to-any-device) |
+| 🧩 **Matrix Solver** | An Android matrix calculator with step-by-step solutions | [**Explore ↗**](https://github.com/mkr-infinity/Matrix_Calculator) |
 
 
-<details>
-<summary><strong>📘 ReadmeHub</strong> — GitHub README Generator</summary>
-
-A fast, browser-based README generator for creating professional GitHub project and profile READMEs. Features 15 themes, live preview, tech badges, and locally saved drafts — no account required.
+---
 
 <div align="center">
 
-<a href="https://github.com/mkr-infinity/readme-hub">
-  <img src="https://img.shields.io/badge/⌘%20SOURCE%20CODE-18181B?style=for-the-badge&logo=github&logoColor=F59E0B" alt="ReadmeHub source code"/>
-</a>
+### 🛠️ STILL EXPLORING?
 
-<a href="https://mkr-infinity.github.io/readme-hub/">
-  <img src="https://img.shields.io/badge/↗%20LIVE%20WEBSITE-F59E0B?style=for-the-badge&logoColor=18181B" alt="Try ReadmeHub"/>
-</a>
+Every repository is another experiment, lesson, or idea in progress.
 
-<a href="https://github.com/mkr-infinity/readme-hub/stargazers">
-  <img src="https://img.shields.io/github/stars/mkr-infinity/readme-hub?style=for-the-badge&color=EAB308&label=STARS" alt="ReadmeHub GitHub stars"/>
-</a>
+<a href="https://github.com/mkr-infinity?tab=repositories"><img src="https://img.shields.io/badge/⌘%20BROWSE%20ALL%20REPOSITORIES-F59E0B?style=for-the-badge&logo=github&logoColor=18181B" alt="Browse all repositories"/></a>
+
+<br/>
+
+<sub>OPEN SOURCE · BUILT WITH CURIOSITY · SHARED WITH THE COMMUNITY</sub>
 
 </div>
 
 </details>
 
-
-<div align="center">
-
-<a href="https://github.com/mkr-infinity?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-F59E0B?style=for-the-badge&logo=github&logoColor=18181B" alt="Explore all repositories"/>
-</a>
-
-<br/><br/>
-
-<sub>⚡ Open source · Practical tools · Always building</sub>
-
-</div>
-
-</details>
 
 
 ---
