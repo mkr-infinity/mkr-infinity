@@ -103,8 +103,6 @@ mkrInfinity = {
 
 ### `Useful Projects` — Built with curiosity. Shared with everyone.
 
-*Open-source apps, developer utilities, and experiments made to solve real problems.*
-
 
 </div>
 
