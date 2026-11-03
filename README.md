@@ -15,9 +15,9 @@
 mkrInfinity = {
     "identity": {
         "name": "Mohammad Kaif Raja",
-        "alias": "mkr-infinity",
+        "alias": "mkr-infinity / mkr_infinity",
         "handle": "@mkr-infinity/@mkr_infinity",
-        "role": "Open Source Builder, Vibe Coder & System Optimizer"
+        "role": "Open Source Builder, No-Code Crafter & System Optimizer"
     },
 
     "expertise": [
@@ -69,10 +69,6 @@ mkrInfinity = {
   <a href="https://instagram.com/mkr_infinity">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://network.bondex.app/p/mkr_infinity">
-    <img src="https://img.shields.io/badge/Bondex-111827?style=for-the-badge&logo=bitcoin&logoColor=FFD700"/>
-  </a>
 </p>
 
 
@@ -83,7 +79,7 @@ mkrInfinity = {
 ## ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,js,react,firebase,html,css,git,github" />
+  <img src="https://skillicons.dev/icons?i=linux,arch,debian,ubuntu,kali,bash,docker,md,js,react,firebase,html,css,git,github" />
 </p>
 
 <p align="center">
