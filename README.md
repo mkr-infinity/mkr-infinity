@@ -223,8 +223,12 @@ Every repository is another experiment, lesson, or idea in progress.
 <details>
   <summary> 👆 Tap to Show GitHub Activity</summary>
 
+| Stats & Streak | Profile Insights |
+|----------------|------------------|
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mkr-infinity&theme=tokyonight" alt="Stats" /> <br><img src="https://github-readme-streak-stats.herokuapp.com/?user=mkr-infinity&theme=tokyonight&hide_border=true" alt="Streak" /> | <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mkr-infinity&theme=tokyonight" alt="Profile Details" /> <br><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mkr-infinity&theme=tokyonight&utcOffset=5.5" alt="Productive Time" /> |
 
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/mkr-infinity?cardType=level&theme=highcontrast&fontFamily=42dot%20Sans&preferLogin=false)](https://git.io/awesome-stats-card)
+
+<br>
 
 <p align="center">
   <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
